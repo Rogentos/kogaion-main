@@ -53,7 +53,7 @@ pkg_setup() {
 src_prepare() {
 	# Replace redhat- and fedora-specific defaults with gentoo ones, and disable
 	# code that requires gentoo infra support.
-	epatch "${FILESDIR}/${PN}-2.0.20-sabayon.patch"
+	epatch "${FILESDIR}/${PN}-2.0.20-kogaion.patch"
 
 	# json-c-0.11, https://github.com/abrt/libreport/pull/{159,174}
 	epatch "${FILESDIR}/${PN}-2.0.20-json-c.patch"

@@ -21,14 +21,14 @@ index db2ffd8..e61a80f 100644
  /*
   * From /etc/os-release
 - * os_release filename name is alredy occupied by /etc/redhat-release (see
-+ * os_release filename name is alredy occupied by /etc/sabayon-release (see
++ * os_release filename name is alredy occupied by /etc/kogaion-release (see
   * below) in sake of backward compatibility /etc/os-release is stored in
   * os_info file
   */
  #define FILENAME_OS_INFO      "os_info"
  #define FILENAME_OS_INFO_IN_ROOTDIR "os_info_in_rootdir"
 -// From /etc/system-release or /etc/redhat-release
-+// From /etc/system-release or /etc/sabayon-release
++// From /etc/system-release or /etc/kogaion-release
  #define FILENAME_OS_RELEASE   "os_release"
  #define FILENAME_OS_RELEASE_IN_ROOTDIR "os_release_in_rootdir"
  // Filled by <what?>
@@ -41,7 +41,7 @@ index 83f898b..63b6492 100644
                  DD_LOAD_TEXT_RETURN_NULL_ON_FAILURE | DD_OPEN_FOLLOW);
          if (!release)
 -            release = load_text_file("/etc/redhat-release",
-+            release = load_text_file("/etc/sabayon-release",
++            release = load_text_file("/etc/kogaion-release",
                      DD_LOAD_TEXT_RETURN_NULL_ON_FAILURE | DD_OPEN_FOLLOW);
          if (!release)
              release = load_text_file("/etc/SuSE-release", DD_OPEN_FOLLOW);
@@ -52,7 +52,7 @@ index 29c44b3..c495f13 100644
 @@ -1,5 +1,5 @@
  # Bugzilla URL
 -BugzillaURL = https://bugzilla.redhat.com/
-+BugzillaURL = https://bugs.sabayon.org/
++BugzillaURL = https://bugs.rogentos.ro/
  # yes means that ssl certificates will be checked
  SSLVerify = yes
  # your login has to exist, if you don have any, please create one
@@ -62,7 +62,7 @@ index f1a77f5..9e6f875 100644
 +++ b/src/plugins/report_Bugzilla.conf
 @@ -1,4 +1,4 @@
 -Bugzilla_BugzillaURL = https://bugzilla.redhat.com
-+Bugzilla_BugzillaURL = https://bugs.sabayon.org
++Bugzilla_BugzillaURL = https://bugs.rogentos.ro
  Bugzilla_Login =
  Bugzilla_Password =
  Bugzilla_SSLVerify = yes
@@ -75,7 +75,7 @@ index a45419c..01e2b6d 100644
      b->b_bugzilla_url = environ ? environ : get_map_string_item_or_empty(settings, "BugzillaURL");
      if (!b->b_bugzilla_url[0])
 -        b->b_bugzilla_url = "https://bugzilla.redhat.com";
-+        b->b_bugzilla_url = "https://bugs.sabayon.org";
++        b->b_bugzilla_url = "https://bugs.rogentos.ro";
      else
      {
          /* We don't want trailing '/': "https://host/dir/" -> "https://host/dir" */
@@ -89,8 +89,8 @@ index 2c58736..26368bd 100644
  
 -SYSTEM_RELEASE_PATHS = ["/etc/system-release","/etc/redhat-release"]
 -SYSTEM_RELEASE_DEPS = ["system-release", "redhat-release"]
-+SYSTEM_RELEASE_PATHS = ["/etc/system-release","/etc/sabayon-release"]
-+SYSTEM_RELEASE_DEPS = ["sabayon-version"]
++SYSTEM_RELEASE_PATHS = ["/etc/system-release","/etc/kogaion-release"]
++SYSTEM_RELEASE_DEPS = ["kogaion-version"]
  
  _hardcoded_default_product = ""
  _hardcoded_default_version = ""
@@ -99,7 +99,7 @@ index 2c58736..26368bd 100644
      if version:
          pd.add("version", version)
 -    #libreport expect the os_release as in /etc/redhat-release
-+    #libreport expect the os_release as in /etc/sabayon-release
++    #libreport expect the os_release as in /etc/kogaion-release
      if (version and product):
          # need to add "release", parse_release() expects format "<product> release <version>"
          pd.add("os_release", product +" release "+ version)
