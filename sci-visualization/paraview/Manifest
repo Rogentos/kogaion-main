@@ -1,0 +1,3 @@
+DIST paraview-3.6.2-openfoam-gpl-r173.patch.bz2 3402 SHA256 3e8751f7747a0067b8532d399a4dc253c71ce50d39fc3b17d38e16060196fc99
+DIST paraview-3.6.2-openfoam-r173.patch.bz2 54275 SHA256 87c62931de1484dd71fe2f1b36eafdb85eb27127cb42825819a67730118ae6ce
+DIST paraview-3.6.2.tar.gz 28323172 SHA256 062f581a6f3fda5cead647fb32b0fab6d9bb3be38aace5e4080dab38a9eaea04
