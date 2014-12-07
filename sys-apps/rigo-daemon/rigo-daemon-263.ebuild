@@ -10,7 +10,7 @@ inherit eutils python-single-r1
 
 MY_PN="RigoDaemon"
 DESCRIPTION="Entropy Client DBus Services, aka RigoDaemon"
-HOMEPAGE="http://www.sabayon.org"
+HOMEPAGE="http://www.rogentos.ro"
 LICENSE="GPL-3"
 
 SLOT="0"

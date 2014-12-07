@@ -9,7 +9,7 @@ PYTHON_COMPAT=( python2_7 )
 inherit eutils python-single-r1 bash-completion-r1
 
 DESCRIPTION="Entropy Package Manager server-side tools"
-HOMEPAGE="http://www.sabayon.org"
+HOMEPAGE="http://www.rogentos.ro"
 LICENSE="GPL-2"
 
 SLOT="0"

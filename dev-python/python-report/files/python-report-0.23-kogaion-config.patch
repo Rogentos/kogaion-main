@@ -4,7 +4,7 @@
  nobase_dist_sysconf_DATA = \
 -report.d/bugzilla.redhat.com.conf \
 -report.d/RHEL-bugzilla.redhat.com.conf \
-+report.d/bugs.sabayon.org.conf \
++report.d/bugs.rogentos.ro.conf \
  report.conf \
  report.d/ftp.conf \
  report.d/scp.conf \
@@ -14,22 +14,22 @@
 +report.d/strata-test.conf
  
  dist_man_MANS = report.conf.5
---- a/etc/report.d/bugs.sabayon.org.conf
-+++ b/etc/report.d/bugs.sabayon.org.conf
+--- a/etc/report.d/bugs.rogentos.ro.conf
++++ b/etc/report.d/bugs.rogentos.ro.conf
 @@ -0,0 +1,7 @@
-+[bugs.sabayon.org]
++[bugs.rogentos.ro]
 +# plugin
 +plugin=bugzilla
 +
 +# rhbz url
-+bugzilla_host=bugs.sabayon.org
++bugzilla_host=bugs.rogentos.ro
 +
 --- a/python/report/plugins/bugzilla/__init__.py
 +++ b/python/report/plugins/bugzilla/__init__.py
 @@ -1,5 +1,5 @@
  """
 -    A Report plugin to send a report to bugzilla.redhat.com.
-+    A Report plugin to send a report to bugs.sabayon.org.
++    A Report plugin to send a report to bugs.rogentos.ro.
      Copyright (C) 2009 Red Hat, Inc
  
      Author(s): Gavin Romig-Koch <gavin@redhat.com>
@@ -38,7 +38,7 @@
      if 'bugURL' in optionsDict:
          return optionsDict["bugURL"]
 -    host = "bugzilla.redhat.com"
-+    host = "bugs.sabayon.org"
++    host = "bugs.rogentos.ro"
      if 'bugzilla_host' in optionsDict:
          host = optionsDict["bugzilla_host"]
      return "https://" + host + "/xmlrpc.cgi"
@@ -48,8 +48,8 @@
  
 -            bzfiler = filer.BugzillaFiler("https://bugzilla.redhat.com/xmlrpc.cgi",
 -                                          "http://bugzilla.redhat.com",
-+            bzfiler = filer.BugzillaFiler("https://bugs.sabayon.org/xmlrpc.cgi",
-+                                          "http://bugs.sabayon.org",
++            bzfiler = filer.BugzillaFiler("https://bugs.rogentos.ro/xmlrpc.cgi",
++                                          "http://bugs.rogentos.ro",
                                            version, product)
  
          if not bzfiler or not bzfiler.supportsFiling() or not bzfiler.bugUrl:

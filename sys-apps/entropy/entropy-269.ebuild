@@ -10,7 +10,7 @@ PYTHON_REQ_USE="sqlite"
 inherit eutils python-single-r1 user
 
 DESCRIPTION="Entropy Package Manager foundation library"
-HOMEPAGE="http://www.sabayon.org"
+HOMEPAGE="http://www.rogentos.ro"
 
 LICENSE="GPL-2"
 SLOT="0"

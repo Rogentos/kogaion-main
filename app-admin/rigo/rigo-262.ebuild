@@ -9,7 +9,7 @@ PYTHON_COMPAT=( python2_7 )
 inherit eutils gnome2-utils fdo-mime python-single-r1
 
 DESCRIPTION="Rigo, the Sabayon Application Browser"
-HOMEPAGE="http://www.sabayon.org"
+HOMEPAGE="http://www.rogentos.ro"
 LICENSE="GPL-3"
 
 SLOT="0"
