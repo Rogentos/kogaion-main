@@ -9,7 +9,7 @@ inherit python
 
 DESCRIPTION="Release metatool used for creating Sabayon (and Gentoo) releases"
 HOMEPAGE="http://www.sabayon.org"
-SRC_URI="mirror://sabayon/${CATEGORY}/${P}.tar.bz2"
+SRC_URI="mirror://kogaion/${CATEGORY}/${P}.tar.bz2"
 
 LICENSE="GPL-2"
 SLOT="0"
