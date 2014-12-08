@@ -10,8 +10,8 @@ inherit distutils-r1 fdo-mime
 DESCRIPTION="Simple to use cross-platform GUI Photo Batch Processor"
 HOMEPAGE="http://photobatch.stani.be/"
 
-SRC_URI="mirror://sabayon/${CATEGORY}/${PN}/${P}.tar.xz
-	mirror://sabayon/${CATEGORY}/${PN}/${PN}-fix-PIL-imports.patch.gz"
+SRC_URI="mirror://kogaion/${CATEGORY}/${PN}/${P}.tar.xz
+	mirror://kogaion/${CATEGORY}/${PN}/${PN}-fix-PIL-imports.patch.gz"
 
 # last tarball released by upstream was versioned 0.2.7.1
 # but the .1 isn't mentioned in their VCS log or sources

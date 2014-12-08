@@ -8,7 +8,7 @@ EHG_REVISION="dd31cb14b9f1"
 
 DESCRIPTION="Blender 2.5 exporter for luxrender"
 HOMEPAGE="http://www.luxrender.net"
-SRC_URI="mirror://sabayon/${CATEGORY}/${PF}.tar.bz2"
+SRC_URI="mirror://kogaion/${CATEGORY}/${PF}.tar.bz2"
 
 LICENSE="GPL-3"
 SLOT="0"

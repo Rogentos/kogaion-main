@@ -7,7 +7,7 @@ inherit eutils
 DESCRIPTION="Btrfs filesystem utilities"
 HOMEPAGE="http://btrfs.wiki.kernel.org/"
 SRC_URI="http://www.kernel.org/pub/linux/kernel/people/mason/btrfs/${PN}-0.19.tar.bz2
-	 mirror://sabayon/sys-fs/btrfs-progs/${PN}-0.19-git-diff-20110804.patch.bz2"
+	 mirror://kogaion/sys-fs/btrfs-progs/${PN}-0.19-git-diff-20110804.patch.bz2"
 
 LICENSE="GPL-2"
 SLOT="0"
