@@ -5,7 +5,7 @@
 EAPI="2"
 
 DESCRIPTION="Meta Package to install the Sabayon Artwork fonts"
-HOMEPAGE="http://www.sabayon.org/"
+HOMEPAGE="http://www.rogentos.ro/"
 
 LICENSE="GPL-2"
 SLOT="0"
