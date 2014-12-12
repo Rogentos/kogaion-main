@@ -8,7 +8,7 @@ SRC_URI=""
 KEYWORDS="~arm"
 
 DESCRIPTION="Eselect module for making easy to switch between u-boot Linux kernels"
-HOMEPAGE="http://www.sabayon.org"
+HOMEPAGE="http://www.rogentos.ro"
 
 LICENSE="GPL-2"
 SLOT="0"

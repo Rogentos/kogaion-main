@@ -8,7 +8,7 @@ SRC_URI=""
 KEYWORDS="~amd64 ~x86"
 
 DESCRIPTION="Eselect module for making easy to switch between x86/x86_64 Linux kernels"
-HOMEPAGE="http://www.sabayon.org"
+HOMEPAGE="http://www.rogentos.ro"
 
 LICENSE="GPL-2"
 SLOT="0"
