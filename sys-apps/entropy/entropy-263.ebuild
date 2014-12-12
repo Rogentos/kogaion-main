@@ -57,7 +57,7 @@ src_install() {
 }
 
 pkg_postinst() {
-	for ex_conf in "${REPO_D_CONFPATH}"/_entropy_sabayon-limbo.example; do
+	for ex_conf in "${REPO_D_CONFPATH}"/_entropy_kogaion-testing.example; do
 		real_conf="${ex_conf%.example}"
 		if [ -f "${real_conf}" ] || [ -f "${real_conf/_}" ]; then
 			# skip installation then
