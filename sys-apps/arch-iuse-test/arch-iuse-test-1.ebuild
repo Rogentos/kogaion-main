@@ -5,7 +5,7 @@
 EAPI=5
 
 DESCRIPTION="Dummy ebuild that prints the arch name in pkg_setup"
-HOMEPAGE="http://www.sabayon.org"
+HOMEPAGE="http://www.rogentos.ro"
 LICENSE="GPL-2+"
 
 SLOT="0"
