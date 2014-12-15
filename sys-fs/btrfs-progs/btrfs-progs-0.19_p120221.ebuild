@@ -33,12 +33,12 @@ src_unpack() {
 src_prepare() {
 	epatch "${FILESDIR}"/${PN}-Modify-Makefile-to-allow-optional-ACL-dependency.patch
 
-	# See Sabayon ML -- DO NOT DROP THIS !!!!!!!!!!!!!!!!!!
+	# See Kogaion ML -- DO NOT DROP THIS !!!!!!!!!!!!!!!!!!
 	# DO NOT DROP THIS !!!!!!!!!!!!!!
 	# DO NOT DROP THIS !!!!!!!!!!!!!!
 	# DO NOT DROP THIS !!!!!!!!!!!!!!
 	# DO NOT DROP THIS !!!!!!!!!!!!!!
-	# http://lists.sabayon.org/pipermail/devel/2011-October/007155.html
+	# http://lists.rogentos.ro/pipermail/devel/2011-October/007155.html
 	epatch "${FILESDIR}"/0002-btrfs-progs-ignore-unavailable-loop-device-source-files.patch
 	# DO NOT DROP THIS !!!!!!!!!!!!!!
 	# DO NOT DROP THIS !!!!!!!!!!!!!!
