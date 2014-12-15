@@ -22,11 +22,11 @@ DEPEND="app-arch/rpm
 RDEPEND="dev-libs/openssl
 	net-misc/curl
 	dev-libs/libxml2
-	>=app-misc/sabayon-version-14.05-r1"
+	>=app-misc/kogaion-version-14.05-r1"
 
 src_prepare() {
 
-	epatch "${FILESDIR}"/${P}-sabayon-config.patch
+	epatch "${FILESDIR}"/${P}-kogaion-config.patch
 	epatch "${FILESDIR}"/${P}-disable-rpm.patch
 	epatch "${FILESDIR}"/${P}-disable-Werror.patch
 
