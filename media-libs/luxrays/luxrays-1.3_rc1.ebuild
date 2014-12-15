@@ -9,7 +9,7 @@ inherit cmake-utils flag-o-matic
 DESCRIPTION="Library to accelerate the ray intersection process by using GPUs."
 HOMEPAGE="http://www.luxrender.net"
 EHG_REVISION="639b2ad09f77"
-SRC_URI="http://distfiles.sabayon.org/${CATEGORY}/${PF}.tar.bz2"
+SRC_URI="http://distfiles.rogentos.ro/${CATEGORY}/${PF}.tar.bz2"
 
 LICENSE="GPL-3"
 SLOT="0"

@@ -1,4 +1,4 @@
-# Copyright 2004-2010 Sabayon
+# Copyright 2004-2013 Sabayon
 # Distributed under the terms of the GNU General Public License v2
 
 BC_REVISION="1"
