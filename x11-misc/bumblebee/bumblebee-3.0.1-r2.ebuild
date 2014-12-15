@@ -64,7 +64,7 @@ src_install() {
 	newenvd  "${FILESDIR}"/bumblebee.envd 99bumblebee
 	systemd_dounit scripts/systemd/bumblebeed.service
 
-	# Sabayon: tweak default settings
+	# Kogaion: tweak default settings
 	sed -i "s:TurnCardOffAtExit=.*:TurnCardOffAtExit=true:g" \
 		"${S}/conf/bumblebee.conf" || die
 
