@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Sabayon Foundation
+# Copyright 2004-2013 Sabayon Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
