@@ -7,8 +7,8 @@ PYTHON_DEPEND="*"
 
 inherit python
 
-DESCRIPTION="Release metatool used for creating Sabayon (and Gentoo) releases"
-HOMEPAGE="http://www.sabayon.org"
+DESCRIPTION="Release metatool used for creating Kogaion (and Gentoo) releases"
+HOMEPAGE="http://www.rogentos.ro"
 SRC_URI="mirror://kogaion/${CATEGORY}/${P}.tar.bz2"
 
 LICENSE="GPL-2"

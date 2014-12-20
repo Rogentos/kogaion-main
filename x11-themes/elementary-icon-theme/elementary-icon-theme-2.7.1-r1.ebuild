@@ -37,7 +37,7 @@ src_install() {
 	local base_dir icon_dir dest_icon_dir myfile
 
 	cd "${WORKDIR}"
-	# Sabayon nice stuff
+	# Kogaion nice stuff
 	for base_dir in fdo-icons-kogaion/*; do
 		[[ -d ${base_dir} ]] || \
 			die "error, ${base_dir} doesn't exist or is not a directory"

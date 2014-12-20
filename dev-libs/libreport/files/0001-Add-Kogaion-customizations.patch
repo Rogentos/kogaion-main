@@ -1,7 +1,7 @@
 From 1b071a4f6529e4753519b0a9c5a68ac258f4a03a Mon Sep 17 00:00:00 2001
 From: Fabio Erculiani <lxnay@sabayon.org>
 Date: Sat, 10 May 2014 15:45:58 +0100
-Subject: [PATCH] Add Sabayon customizations
+Subject: [PATCH] Add Kogaion customizations
 
 ---
  src/include/internal_libreport.h | 4 ++--

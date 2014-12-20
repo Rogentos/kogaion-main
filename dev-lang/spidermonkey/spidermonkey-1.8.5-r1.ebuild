@@ -41,7 +41,7 @@ src_prepare() {
 	# https://bugzilla.mozilla.org/show_bug.cgi?id=638056#c9
 	epatch "${FILESDIR}/${P}-fix-ppc64.patch"
 
-	# Sabayon: armv7 fixes
+	# Kogaion: armv7 fixes
 	# reconf due to fix-arm-crap.patch (this rebuilds Makefile.in
 	# and allows for proper patching it [hack, determine why
 	# if forces "arm" instead of "arm%" on:

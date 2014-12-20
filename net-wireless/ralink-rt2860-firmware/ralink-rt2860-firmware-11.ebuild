@@ -1,4 +1,4 @@
-# Copyright 2006 SabayonLinux
+# Copyright 2004-2013 SabayonLinux
 # Distributed under the terms of the GNU General Public License v2
 
 DESCRIPTION="Firmware for Wireless Ralink RT2860PCI/mPCI/PCIe/CB(RT2760/RT2790/RT2860/RT2890"

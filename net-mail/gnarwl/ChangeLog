@@ -6,7 +6,7 @@
 
   16 Sep 2010; Fabio Erculiani <lxnay@gentoo.org> +gnarwl-3.6.ebuild,
   +metadata.xml:
-  import into sabayon overlay, thanks to wschlich-testing
+  import into kogaion overlay, thanks to wschlich-testing
 
   19 Jun 2009; Wolfram Schlich <wschlich@gentoo.org> gnarwl-3.6.ebuild:
   fix paths, added some variables for user control of ebuild setup

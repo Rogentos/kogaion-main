@@ -1,7 +1,7 @@
 From bc95f13701e018f4dc07e6c206c8b638acc6113a Mon Sep 17 00:00:00 2001
 From: Fabio Erculiani <lxnay@sabayon.org>
 Date: Sat, 10 May 2014 18:05:10 +0100
-Subject: [PATCH 2/2] Drop Fedora workflows, add Sabayon one
+Subject: [PATCH 2/2] Drop Fedora workflows, add Kogaion one
 
 ---
  src/workflows/Makefile.am                      | 33 ++++----------------------
@@ -10,7 +10,7 @@ Subject: [PATCH 2/2] Drop Fedora workflows, add Sabayon one
  src/workflows/report_rhel.conf                 | 19 ---------------
  src/workflows/workflow_AnacondaFedora.xml.in   |  9 -------
  src/workflows/workflow_AnacondaRHEL.xml.in     |  9 -------
- src/workflows/workflow_AnacondaSabayon.xml.in  |  9 +++++++
+ src/workflows/workflow_AnacondaKogaion.xml.in  |  9 +++++++
  src/workflows/workflow_FedoraCCpp.xml.in       | 13 ----------
  src/workflows/workflow_FedoraKerneloops.xml.in | 12 ----------
  src/workflows/workflow_FedoraPython.xml.in     | 12 ----------
@@ -26,7 +26,7 @@ Subject: [PATCH 2/2] Drop Fedora workflows, add Sabayon one
  delete mode 100644 src/workflows/report_rhel.conf
  delete mode 100644 src/workflows/workflow_AnacondaFedora.xml.in
  delete mode 100644 src/workflows/workflow_AnacondaRHEL.xml.in
- create mode 100644 src/workflows/workflow_AnacondaSabayon.xml.in
+ create mode 100644 src/workflows/workflow_AnacondaKogaion.xml.in
  delete mode 100644 src/workflows/workflow_FedoraCCpp.xml.in
  delete mode 100644 src/workflows/workflow_FedoraKerneloops.xml.in
  delete mode 100644 src/workflows/workflow_FedoraPython.xml.in
@@ -63,7 +63,7 @@ index 7f1e676..33fb8e6 100644
  dist_workflows_DATA += \
 -    workflow_AnacondaFedora.xml \
 -    workflow_AnacondaRHEL.xml \
-+    workflow_AnacondaSabayon.xml \
++    workflow_AnacondaKogaion.xml \
      workflow_AnacondaUpload.xml
  endif
  
@@ -106,7 +106,7 @@ index 5828b5a..91a2e14 100644
 @@ -1,3 +1,2 @@
 -EVENT=workflow_AnacondaFedora component=anaconda
 -EVENT=workflow_AnacondaRHEL component=anaconda
-+EVENT=workflow_AnacondaSabayon component=anaconda
++EVENT=workflow_AnacondaKogaion component=anaconda
  EVENT=workflow_AnacondaUpload component=anaconda
 diff --git a/src/workflows/report_fedora.conf b/src/workflows/report_fedora.conf
 deleted file mode 100644
@@ -188,16 +188,16 @@ index 6d401ff..0000000
 -        <event>report_RHTSupport</event>
 -    </events>
 -</workflow>
-diff --git a/src/workflows/workflow_AnacondaSabayon.xml.in b/src/workflows/workflow_AnacondaSabayon.xml.in
+diff --git a/src/workflows/workflow_AnacondaKogaion.xml.in b/src/workflows/workflow_AnacondaKogaion.xml.in
 new file mode 100644
 index 0000000..bf27e52
 --- /dev/null
-+++ b/src/workflows/workflow_AnacondaSabayon.xml.in
++++ b/src/workflows/workflow_AnacondaKogaion.xml.in
 @@ -0,0 +1,9 @@
 +<?xml version="1.0" encoding="UTF-8" ?>
 +<workflow>
-+    <_name>Report a bug to Sabayon maintainers</_name>
-+    <_description>Process the report using the Sabayon infrastructure</_description>
++    <_name>Report a bug to Kogaion maintainers</_name>
++    <_description>Process the report using the Kogaion infrastructure</_description>
 +
 +    <events>
 +        <event>report_Bugzilla</event>

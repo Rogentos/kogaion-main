@@ -45,10 +45,10 @@ session         optional        pam_permit.so
 pkg_setup() {
 	python_pkg_setup
 
-	# Fix Sabayon 5.3 anaconda "bug" caused by the usage of authconfig
+	# Fix Kogaion 5.3 anaconda "bug" caused by the usage of authconfig
 	# that broke Gentoo pambase file layout making /etc/pam.d/system-auth
 	# a symlink of /etc/pam.d/system-auth-ac
-	# Sabayon >5.3 dropped authconfig (so this ebuild will be removed)
+	# Kogaion >5.3 dropped authconfig (so this ebuild will be removed)
 	# and so the issue got solved.
 	# The issue didn't happen inside our server chroots because authconfig
 	# got triggered during installation (by anaconda, fixed in 0.9.9.3)

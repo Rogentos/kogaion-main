@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python2_7 )
 
 inherit eutils python-single-r1
 
-DESCRIPTION="Official Sabayon Linux Entropy Notification Applet Loader"
+DESCRIPTION="Official Kogaion Linux Entropy Notification Applet Loader"
 HOMEPAGE="http://www.rogentos.ro"
 LICENSE="GPL-2"
 
