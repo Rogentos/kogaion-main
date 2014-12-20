@@ -1,7 +1,7 @@
 From af93a79ebe914934552c4343e928c4cfc7a70184 Mon Sep 17 00:00:00 2001
 From: Fabio Erculiani <lxnay@sabayon.org>
 Date: Sat, 10 May 2014 18:09:05 +0100
-Subject: [PATCH 3/3] Make report_Bugzilla use Sabayon's bugzilla URL
+Subject: [PATCH 3/3] Make report_Bugzilla use Kogaion's bugzilla URL
 
 ---
  src/plugins/report_Bugzilla.xml.in | 4 ++--

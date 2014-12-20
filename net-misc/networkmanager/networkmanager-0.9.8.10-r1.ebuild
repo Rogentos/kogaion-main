@@ -129,7 +129,7 @@ src_prepare() {
 
 src_configure() {
 	# TODO: enable wimax when we have a libnl:3 compatible revision of it
-	# Sabayon: we use bluez5, do not pass --enable-bluez4
+	# Kogaion: we use bluez5, do not pass --enable-bluez4
 	econf \
 		--disable-more-warnings \
 		--disable-static \

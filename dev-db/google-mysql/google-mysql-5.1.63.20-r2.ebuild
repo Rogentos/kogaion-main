@@ -306,7 +306,7 @@ src_test() {
 }
 
 pkg_config() {
-	# Sabayon bug #3647, Gentoo bug #463680
+	# Kogaion bug #3647, Gentoo bug #463680
 	local run_mysqld="${EROOT}/var/run/mysqld"
 	if [ ! -d "${run_mysqld}" ]; then
 		mkdir "${run_mysqld}" || die

@@ -5,7 +5,7 @@
 EAPI=4
 inherit perl-module vcs-snapshot
 
-DESCRIPTION="A simple CLI interface to packages.sabayon.org"
+DESCRIPTION="A simple CLI interface to packages.rogentos.ro"
 HOMEPAGE="http://github.com/Enlik/querypkg/"
 SRC_URI="https://github.com/Enlik/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 

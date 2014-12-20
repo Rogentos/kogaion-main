@@ -52,7 +52,7 @@ DEPEND="${RDEPEND}
 S="${WORKDIR}/${MY_P}"
 
 src_prepare() {
-	# Sabayon: we need this
+	# Kogaion: we need this
 	epatch "${FILESDIR}/${P}-new-webob-support.patch"
 	epatch "${FILESDIR}/${P}-new-webob-support-2.patch"
 

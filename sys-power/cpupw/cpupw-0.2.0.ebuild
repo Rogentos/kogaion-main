@@ -1,5 +1,5 @@
 # Copyright 1999-2006 Gentoo Foundation
-# Copyright 2007 Sabayon Linux
+# Copyright 2004-2013 Sabayon Linux
 # Distributed under the terms of the GNU General Public License v2
 
 inherit eutils

@@ -247,7 +247,7 @@ VALID_OPTIONS = {
 }
 
 def print_help():
-    print("Keyboard configuration tool - Sabayon Linux (2011)")
+    print("Keyboard configuration tool - Kogaion Linux (2011)")
     print("usage: keyboard-setup <keymap> [<variant>] [<options>] <component>")
     print("available components: " + ",".join(sorted(VALID_OPTIONS.keys())))
 

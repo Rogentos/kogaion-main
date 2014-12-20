@@ -1,7 +1,7 @@
 # Copyright 2004-2013 Sabayon
 # Distributed under the terms of the GNU General Public License v2
 
-DESCRIPTION="Sabayon Keyboard configuration wrapper"
+DESCRIPTION="Kogaion Keyboard configuration wrapper"
 HOMEPAGE="http://www.rogentos.ro"
 SRC_URI=""
 LICENSE="GPL-2"

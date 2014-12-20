@@ -35,7 +35,7 @@ app-emulation/qemu-gui
 # Breaks many apps, see: #575
 =x11-libs/libxcb-1.1.93-r1
 
-# Fabio Erculiani <lxnay@sabayonlinux.org>
+# Fabio Erculiani <lxnay@sabayon.org>
 # Switching over to Portage tree drivers
 =x11-drivers/ati-drivers-9.6-r1
 
@@ -43,7 +43,7 @@ app-emulation/qemu-gui
 # Mask Unstable Miro versions
 >media-tv/miro-2.0.5
 
-# Fabio Erculiani <lxnay@sabayonlinux.org>
+# Fabio Erculiani <lxnay@sabayon.org>
 # Mask imlib2 version used on Branch 5
 # by E17 stuff
 =media-libs/imlib2-9999

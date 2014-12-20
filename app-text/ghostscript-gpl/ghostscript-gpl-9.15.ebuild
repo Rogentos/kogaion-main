@@ -82,8 +82,8 @@ src_prepare() {
 	rm -rf "${S}"/tiff
 	rm -rf "${S}"/zlib
 	## Only difference between us and upstream
-	## Sabayon: this breaks pdf printing
-	## See: https://forum.sabayon.org/viewtopic.php?f=59&t=30987
+	## Kogaion: this breaks pdf printing
+	## See: https://forum.rogentos.ro/viewtopic.php?f=59&t=30987
 	# remove internal urw-fonts
 	## rm -rf "${S}"/Resource/Font
 	# remove internal CMaps (CMaps from poppler-data are used instead)
