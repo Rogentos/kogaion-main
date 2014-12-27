@@ -25,7 +25,7 @@ RDEPEND="${PYTHON_DEPS}
 	dev-python/pygobject:3
 	net-firewall/ebtables
 	net-firewall/iptables[ipv6]
-	|| ( >=sys-apps/openrc-0.11.5 sys-apps/systemd )
+	|| ( sys-apps/systemd )
 	gui? (
 		dev-python/pygtk:2
 		>=x11-libs/gtk+-2.6:2
