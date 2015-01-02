@@ -1,16 +1,16 @@
-# Copyright 1999-2005 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-inherit eutils gnome2 multilib autotools
+inherit eutils multilib autotools
 
 DESCRIPTION="A program to download files from usenet"
 HOMEPAGE="http://www.nntpgrab.nl"
-SRC_URI="http://www.nntpgrab.nl/releases/nntpgrab-${PV}.tar.bz2"
+SRC_URI="http://www.nntpgrab.nl/releases/${P}.tar.bz2"
 
-LICENSE="GPL2+"
+LICENSE="GPL-2+"
 SLOT="0"
-KEYWORDS="x86 amd64"
+KEYWORDS="~x86 ~amd64"
 IUSE="libnotify dbus policykit qt4 linguas_en linguas_nl linguas_fr"
 
 DEPEND=">=sys-libs/zlib-1.1.4
@@ -29,41 +29,39 @@ DEPEND=">=sys-libs/zlib-1.1.4
 RDEPEND="${DEPEND}"
 
 src_unpack() {
-	unpack "${A}"
-	cd "$S"
+	unpack ${A}
+	cd "$S" || die
 
-	epatch "${FILESDIR}/nntpgrab_0_7_1_fix_subversion_1_7_compatibility.patch"
 	eautomake
 }
 
 src_compile() {
-	econf "--disable-php-module" || die "econf failed"
-	emake || die "emake failed"
+	econf "--disable-php-module" || die "Econf failed"
+	emake || die "Emake failed"
 
 	if use qt4 ; then
-		pushd client/gui_qt
-			qmake gui_qt.pro -o Makefile
-			emake || die "building the Qt frontend failed"
+		pushd client/gui_qt || die "pushd failed"
+			qmake gui_qt.pro -o Makefile || die "Qmake failed"
+			emake || die "Building the Qt frontend failed"
 		popd
-		pushd server_qt
-			qmake server_qt.pro -o Makefile
-			emake || die "building the Qt Server frontend failed"
+		pushd server_qt || die "pushd failed"
+			qmake server_qt.pro -o Makefile || die "Qmake failed"
+			emake || die "Building the Qt Server frontend failed"
 		popd
 	fi
 }
 
 src_install() {
-	emake install DESTDIR=${D} || die
+	emake install DESTDIR="${D}" || die
 
 	if use qt4 ; then
-		install -m 0755 client/gui_qt/nntpgrab_gui_qt ${D}/usr/bin/nntpgrab_gui_qt
-		mkdir -p ${D}/usr/share/nntpgrab/translations/
-		install -m 0644 client/gui_qt/translations/*.qm ${D}/usr/share/nntpgrab/translations
-		install -m 0644 client/gui_qt/nntpgrab_qt.desktop ${D}/usr/share/applications/nntpgrab_qt.desktop
-		install -m 0755 server_qt/nntpgrab_server_qt ${D}/usr/bin/nntpgrab_server_qt
-		install -m 0644 server_qt/nntpgrab_server_qt.desktop ${D}/usr/share/applications/nntpgrab_server_qt.desktop
+		install -m 0755 client/gui_qt/nntpgrab_gui_qt "${D}"/usr/bin/nntpgrab_gui_qt || die
+		mkdir -p "${D}"/usr/share/nntpgrab/translations/ || die
+		install -m 0644 client/gui_qt/translations/*.qm "${D}"/usr/share/nntpgrab/translations || die
+		install -m 0644 client/gui_qt/nntpgrab_qt.desktop "${D}"/usr/share/applications/nntpgrab_qt.desktop || die
+		install -m 0755 server_qt/nntpgrab_server_qt "${D}"/usr/bin/nntpgrab_server_qt || die
+		install -m 0644 server_qt/nntpgrab_server_qt.desktop "${D}"/usr/share/applications/nntpgrab_server_qt.desktop || die
 	fi
 
-	dodoc ChangeLog README COPYING NEWS
+	dodoc ChangeLog README NEWS || die
 }
-
