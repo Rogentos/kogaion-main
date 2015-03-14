@@ -2,14 +2,14 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: /var/cvsroot/gentoo-x86/net-print/cups-filters/cups-filters-1.0.29.ebuild,v 1.2 2013/02/06 12:57:25 gienah Exp $
 
-EAPI=4
+EAPI=5
 
 GENTOO_DEPEND_ON_PERL=no
 
-inherit base perl-module autotools
+inherit base eutils perl-module autotools systemd
 
 if [[ "${PV}" == "9999" ]] ; then
-	inherit autotools bzr
+	inherit bzr
 	EBZR_REPO_URI="http://bzr.linuxfoundation.org/openprinting/cups-filters"
 	KEYWORDS=""
 else
@@ -35,9 +35,9 @@ RDEPEND="
 	sys-devel/bc
 	sys-libs/zlib
 	avahi? ( net-dns/avahi )
-	jpeg? ( virtual/jpeg )
+	jpeg? ( virtual/jpeg:0 )
 	perl? ( dev-lang/perl )
-	png? ( media-libs/libpng )
+	png? ( media-libs/libpng:0 )
 	tiff? ( media-libs/tiff )
 "
 DEPEND="${RDEPEND}"
@@ -69,11 +69,11 @@ src_configure() {
 }
 
 src_compile() {
-	default
+	MAKEOPTS=-j1 default
 
 	if use perl; then
 		pushd "${S}/scripting/perl" > /dev/null
-		perl-module_src_prep
+		perl-module_src_configure
 		perl-module_src_compile
 		popd > /dev/null
 	fi
@@ -85,7 +85,7 @@ src_install() {
 	if use perl; then
 		pushd "${S}/scripting/perl" > /dev/null
 		perl-module_src_install
-		fixlocalpod
+		perl_delete_localpod
 		popd > /dev/null
 	fi
 
