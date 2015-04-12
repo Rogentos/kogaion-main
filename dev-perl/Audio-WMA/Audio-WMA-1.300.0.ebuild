@@ -1,8 +1,8 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Header: /var/cvsroot/gentoo-x86/dev-perl/Audio-WMA/Audio-WMA-1.300.0.ebuild,v 1.1 2014/12/07 14:22:55 dilfridge Exp $
 
-EAPI=3
+EAPI=5
 
 MODULE_VERSION=1.3
 MODULE_AUTHOR=DANIEL
@@ -19,4 +19,4 @@ DEPEND="
 	test? ( dev-perl/Test-Pod
 		dev-perl/Test-Pod-Coverage )"
 
-SRC_TEST=do
+SRC_TEST="do parallel"
