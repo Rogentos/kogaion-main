@@ -10,14 +10,14 @@ PYTHON_REQ_USE="sqlite"
 inherit eutils python-single-r1 user
 
 DESCRIPTION="Entropy Package Manager foundation library"
-HOMEPAGE="http://www.rogentos.ro"
+HOMEPAGE="http://www.sabayon.org"
 
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ia64 ~ppc ~ppc64 ~x86"
 
 IUSE=""
-SRC_URI="mirror://kogaion/${CATEGORY}/${P}.tar.bz2"
+SRC_URI="mirror://sabayon/${CATEGORY}/${P}.tar.bz2"
 
 RDEPEND=">=app-misc/pax-utils-0.7
 	dev-db/sqlite:3[soundex(+)]
@@ -57,7 +57,7 @@ src_install() {
 }
 
 pkg_postinst() {
-	for ex_conf in "${REPO_D_CONFPATH}"/_entropy_kogaion-limbo.example; do
+	for ex_conf in "${REPO_D_CONFPATH}"/_entropy_sabayon-limbo.example; do
 		real_conf="${ex_conf%.example}"
 		if [ -f "${real_conf}" ] || [ -f "${real_conf/_}" ]; then
 			# skip installation then
