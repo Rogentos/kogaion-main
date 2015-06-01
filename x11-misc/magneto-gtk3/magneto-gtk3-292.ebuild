@@ -9,14 +9,14 @@ PYTHON_COMPAT=( python2_7 )
 inherit eutils python-single-r1
 
 DESCRIPTION="Entropy Package Manager notification applet GTK3 frontend"
-HOMEPAGE="http://www.rogentos.ro"
+HOMEPAGE="http://www.sabayon.org"
 LICENSE="GPL-2"
 
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~x86"
 IUSE=""
 
-SRC_URI="mirror://kogaion/sys-apps/entropy-${PV}.tar.bz2"
+SRC_URI="mirror://sabayon/sys-apps/entropy-${PV}.tar.bz2"
 S="${WORKDIR}/entropy-${PV}/magneto"
 
 DEPEND="${PYTHON_DEPS}"
