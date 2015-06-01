@@ -10,13 +10,13 @@ inherit eutils python-single-r1
 
 MY_PN="RigoDaemon"
 DESCRIPTION="Entropy Client DBus Services, aka RigoDaemon"
-HOMEPAGE="http://www.rogentos.ro"
+HOMEPAGE="http://www.sabayon.org"
 LICENSE="GPL-3"
 
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~x86"
 IUSE=""
-SRC_URI="mirror://kogaion/sys-apps/entropy-${PV}.tar.bz2"
+SRC_URI="mirror://sabayon/sys-apps/entropy-${PV}.tar.bz2"
 
 S="${WORKDIR}/entropy-${PV}/rigo/${MY_PN}"
 

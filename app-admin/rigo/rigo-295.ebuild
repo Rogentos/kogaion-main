@@ -16,7 +16,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~arm ~x86"
 IUSE="+passwordless-upgrade"
 
-SRC_URI="mirror://kogaion/sys-apps/entropy-${PV}.tar.bz2"
+SRC_URI="mirror://sabayon/sys-apps/entropy-${PV}.tar.bz2"
 S="${WORKDIR}/entropy-${PV}/rigo"
 
 DEPEND="${PYTHON_DEPS}"

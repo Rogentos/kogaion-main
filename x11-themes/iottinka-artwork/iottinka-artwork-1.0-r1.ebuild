@@ -5,7 +5,8 @@ EAPI=3
 
 DESCRIPTION="Iottinka Artwork at DeviantArt"
 HOMEPAGE="http://iottinka.deviantart.com"
-SRC_URI="mirror://kogaion/${CATEGORY}/${PN}/${P}.tar.bz2"
+SRC_URI="mirror://kogaion/${CATEGORY}/${PN}/${P}.tar.bz2
+	http://bpr.bluepink.ro/~rogentos/kogaion/${CATEGORY}/${PN}/${P}.tar.bz2"
 LICENSE="as-is"
 
 SLOT="0"
