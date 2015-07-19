@@ -6,8 +6,8 @@ EAPI=4
 
 DESCRIPTION="A Microsoft-signed version of the UEFI Shim bootloader for SecureBoot"
 HOMEPAGE="http://mjg59.dreamwidth.org/20303.html"
-SRC_URI="bpr.bluepink.ro/~rogentos/kogaion/${CATEGORY}/${P}.tgz
-	mirror://kogaion/${CATEGORY}/${P}.tgz"
+SRC_URI="bpr.bluepink.ro/~rogentos/kogaion/${CATEGORY}/${P}.tgz"
+	#mirror://kogaion/${CATEGORY}/${P}.tgz" #temporary disabled
 
 LICENSE="as-is"
 SLOT="${PV}"
