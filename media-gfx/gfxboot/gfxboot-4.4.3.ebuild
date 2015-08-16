@@ -6,10 +6,9 @@ EAPI=2
 
 inherit eutils
 
-DESCRIPTION="gfxboot allows you to create gfx menus for bootmanagers."
-HOMEPAGE="http://www.sabayon.org"
-SRC_URI="mirror://ubuntu/pool/main/g/gfxboot/gfxboot_${PV}.orig.tar.gz
-	mirror://ubuntu/pool/main/g/gfxboot/gfxboot_${PV}-1ubuntu1.diff.gz"
+DESCRIPTION="tool to test and create graphical boot logos"
+HOMEPAGE="http://www.calculate-linux.org"
+SRC_URI="mirror://ubuntu/pool/main/g/gfxboot/gfxboot_${PV}.orig.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="4"
@@ -28,13 +27,10 @@ RDEPEND="${DEPEND}"
 RESTRICT="mirror"
 
 src_prepare() {
-	epatch "${WORKDIR}/gfxboot_${PV}-1ubuntu1.diff"
-	epatch "${S}/${P}/debian/patches/"*.patch
-	# force executables into /usr/bin, as Ubuntu does
-	sed -i "s:usr/sbin:usr/bin:g" "${S}/Makefile" || die
+	epatch "${FILESDIR}/gfxboot-fix_warning.patch"
+	epatch "${FILESDIR}/gfxboot-fix_freetype.patch"
 }
 
 src_install() {
-	dodir /etc/bootsplash/themes
 	emake DESTDIR="${D}" THEMES="" install || die
 }
