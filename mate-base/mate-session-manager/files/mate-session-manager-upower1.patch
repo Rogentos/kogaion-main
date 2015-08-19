@@ -1,0 +1,86 @@
+From 80be90bb422ef8cb5a28c7ff3fe2a337dce8c368 Mon Sep 17 00:00:00 2001
+From: Stefano Karapetsas <stefano@karapetsas.com>
+Date: Tue, 22 Apr 2014 16:44:37 +0000
+Subject: Allow to build with upower 0.99
+
+---
+diff --git a/mate-session/gsm-logout-dialog.c b/mate-session/gsm-logout-dialog.c
+index da3d651..697b70d 100644
+--- a/mate-session/gsm-logout-dialog.c
++++ b/mate-session/gsm-logout-dialog.c
+@@ -211,10 +211,10 @@ gsm_logout_supports_system_suspend (GsmLogoutDialog *logout_dialog)
+         if (LOGIND_RUNNING())
+             ret = gsm_systemd_can_suspend (logout_dialog->priv->systemd);
+ #endif
+-#if defined(HAVE_SYSTEMD) && defined(HAVE_UPOWER)
++#if defined(HAVE_SYSTEMD) && defined(HAVE_UPOWER) && !UP_CHECK_VERSION(0, 99, 0)
+         else
+ #endif
+-#ifdef HAVE_UPOWER
++#if defined(HAVE_UPOWER) && !UP_CHECK_VERSION(0, 99, 0)
+         ret = up_client_get_can_suspend (logout_dialog->priv->up_client);
+ #endif
+         return ret;
+@@ -229,10 +229,10 @@ gsm_logout_supports_system_hibernate (GsmLogoutDialog *logout_dialog)
+         if (LOGIND_RUNNING())
+             ret = gsm_systemd_can_hibernate (logout_dialog->priv->systemd);
+ #endif
+-#if defined(HAVE_SYSTEMD) && defined(HAVE_UPOWER)
++#if defined(HAVE_SYSTEMD) && defined(HAVE_UPOWER) && !UP_CHECK_VERSION(0, 99, 0)
+         else
+ #endif
+-#ifdef HAVE_UPOWER
++#if defined(HAVE_UPOWER) && !UP_CHECK_VERSION(0, 99, 0)
+         ret = up_client_get_can_hibernate (logout_dialog->priv->up_client);
+ #endif
+         return ret;
+diff --git a/mate-session/gsm-manager.c b/mate-session/gsm-manager.c
+index eda565b..638ef10 100644
+--- a/mate-session/gsm-manager.c
++++ b/mate-session/gsm-manager.c
+@@ -1163,10 +1163,10 @@ manager_attempt_hibernate (GsmManager *manager)
+                 gsm_systemd_attempt_hibernate (systemd);
+         }
+ #endif
+-#if defined(HAVE_SYSTEMD) && defined(HAVE_UPOWER)
++#if defined(HAVE_SYSTEMD) && defined(HAVE_UPOWER) && !UP_CHECK_VERSION(0, 99, 0)
+         else {
+ #endif
+-#ifdef HAVE_UPOWER
++#if defined(HAVE_UPOWER) && !UP_CHECK_VERSION(0, 99, 0)
+         can_hibernate = up_client_get_can_hibernate (manager->priv->up_client);
+         if (can_hibernate) {
+ 
+@@ -1182,7 +1182,7 @@ manager_attempt_hibernate (GsmManager *manager)
+                 }
+         }
+ #endif
+-#if defined(HAVE_SYSTEMD) && defined(HAVE_UPOWER)
++#if defined(HAVE_SYSTEMD) && defined(HAVE_UPOWER) && !UP_CHECK_VERSION(0, 99, 0)
+         }
+ #endif
+ }
+@@ -1208,10 +1208,10 @@ manager_attempt_suspend (GsmManager *manager)
+                 gsm_systemd_attempt_suspend (systemd);
+         }
+ #endif
+-#if defined(HAVE_SYSTEMD) && defined(HAVE_UPOWER)
++#if defined(HAVE_SYSTEMD) && defined(HAVE_UPOWER) && !UP_CHECK_VERSION(0, 99, 0)
+         else {
+ #endif
+-#ifdef HAVE_UPOWER
++#if defined(HAVE_UPOWER) && !UP_CHECK_VERSION(0, 99, 0)
+         can_suspend = up_client_get_can_suspend (manager->priv->up_client);
+         if (can_suspend) {
+ 
+@@ -1227,7 +1227,7 @@ manager_attempt_suspend (GsmManager *manager)
+                 }
+         }
+ #endif
+-#if defined(HAVE_SYSTEMD) && defined(HAVE_UPOWER)
++#if defined(HAVE_SYSTEMD) && defined(HAVE_UPOWER) && !UP_CHECK_VERSION(0, 99, 0)
+         }
+ #endif
+ }
+--
+cgit 
