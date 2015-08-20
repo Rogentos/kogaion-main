@@ -39,7 +39,6 @@ REPO_D_CONFPATH="${ROOT}/etc/entropy/repositories.conf.d"
 ENTROPY_CACHEDIR="${ROOT}/var/lib/entropy/caches"
 
 pkg_setup() {
-	epatch "${FILESDIR}"/kogaion-${PN}.patch
 	python-single-r1_pkg_setup
 	# Can:
 	# - update repos
