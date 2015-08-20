@@ -110,5 +110,12 @@ pkg_postinst() {
 	elog "install dev-util/bsdiff."
 	echo
 	rm ${WORKDIR}/entropy-296/conf/repositories.conf.d/*sabayon*
-	rm ${WORKDIR}/entropy-296/conf/repositories.conf.d/entropy_server
+	rm ${WORKDIR}/entropy-296/conf/repositories.conf.d/*.example
+	if [ -f "${WORKDIR}/entropy-296/conf/repositories.conf.d/entropy_server" ] ; then
+		rm ${WORKDIR}/entropy-296/conf/repositories.conf.d/entropy_server
+	fi
+
+	if [ -f "${WORKDIR}/entropy-296/conf/repositories.conf.d/entropy_server.example" ] ; then
+		rm "${WORKDIR}/entropy-296/conf/repositories.conf.d/entropy_server.example"
+	fi
 }
