@@ -39,6 +39,7 @@ REPO_D_CONFPATH="${ROOT}/etc/entropy/repositories.conf.d"
 ENTROPY_CACHEDIR="${ROOT}/var/lib/entropy/caches"
 
 pkg_setup() {
+	epatch "${FILESDIR}"/kogaion-${PN}.patch
 	python-single-r1_pkg_setup
 	# Can:
 	# - update repos
@@ -54,6 +55,8 @@ src_install() {
 	emake DESTDIR="${D}" LIBDIR="usr/lib" install || die "make install failed"
 
 	python_optimize "${D}/usr/lib/entropy/lib/entropy"
+	rm ${WORKDIR}/entropy-296/conf/repositories.conf.d/*sabayon*
+	rm ${WORKDIR}/entropy-296/conf/repositories.conf.d/entropy_server
 }
 
 pkg_postinst() {
