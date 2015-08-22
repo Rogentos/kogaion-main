@@ -32,8 +32,7 @@ DEPEND="${RDEPEND}
 
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
-S="${S}/lib"
-
+S="${WORKDIR}/${PN}-${PV}"
 REPO_CONFPATH="${ROOT}/etc/entropy/repositories.conf"
 REPO_D_CONFPATH="${ROOT}/etc/entropy/repositories.conf.d"
 ENTROPY_CACHEDIR="${ROOT}/var/lib/entropy/caches"
@@ -49,10 +48,13 @@ pkg_setup() {
 	enewgroup entropy-nopriv || die "failed to create entropy-nopriv group"
 	enewuser entropy-nopriv -1 -1 -1 entropy-nopriv || die "failed to create entropy-nopriv user"
 }
+src_prepare() {
+	epatch "${FILESDIR}/kogaion-entropy.patch"
+}
 
 src_install() {
+	cd "${S}/lib"
 	emake DESTDIR="${D}" LIBDIR="usr/lib" install || die "make install failed"
-
 	python_optimize "${D}/usr/lib/entropy/lib/entropy"
 }
 
