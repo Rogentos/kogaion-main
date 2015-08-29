@@ -33,4 +33,5 @@ src_install() {
 	newbashcomp "${S}/eit-completion.bash" eit
 
 	python_optimize "${D}/usr/lib/entropy/server"
+	exit 1
 }

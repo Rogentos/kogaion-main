@@ -1,0 +1,2384 @@
+diff -Nur a/client/po/bg.po b/client/po/bg.po
+--- a/client/po/bg.po	2015-03-17 16:16:55.000000000 +0000
++++ b/client/po/bg.po	2015-08-22 15:04:11.242625538 +0100
+@@ -6,7 +6,7 @@
+ # Tsetso Zdravkov <vyrgozunqk@gmail.com>, 2012
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Client\n"
++"Project-Id-Version: Kogaion Entropy Client\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:08+0100\n"
+ "PO-Revision-Date: 2014-02-14 15:14+0000\n"
+@@ -4684,11 +4684,11 @@
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:193
+-msgid "_Sabayon Linux Website"
++msgid "_Kogaion Linux Website"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:194
+-msgid "Launch Sabayon Linux Website"
++msgid "Launch Kogaion Linux Website"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:196
+@@ -4704,7 +4704,7 @@
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:343
+-msgid "Cannot monitor Sabayon updates"
++msgid "Cannot monitor Kogaion updates"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:345
+@@ -4723,7 +4723,7 @@
+ msgstr[1] ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:370
+-msgid "Sabayon updates available"
++msgid "Kogaion updates available"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:371
+@@ -4740,7 +4740,7 @@
+ #. all fine, no updates
+ #: ../../magneto/src/magneto/core/interfaces.py:380
+ #: ../../magneto/src/magneto/core/interfaces.py:382
+-msgid "Your Sabayon is up-to-date"
++msgid "Your Kogaion is up-to-date"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:383
+@@ -4753,7 +4753,7 @@
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:395
+-msgid "Sabayon repositories status"
++msgid "Kogaion repositories status"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:396
+@@ -4779,7 +4779,7 @@
+ msgstr ""
+ 
+ #: ../kernel-switcher:28
+-msgid "Sabayon Kernel Switcher"
++msgid "Kogaion Kernel Switcher"
+ msgstr ""
+ 
+ #: ../kernel-switcher:35
+diff -Nur a/client/po/ca.po b/client/po/ca.po
+--- a/client/po/ca.po	2015-03-17 16:16:55.000000000 +0000
++++ b/client/po/ca.po	2015-08-22 15:04:11.244625538 +0100
+@@ -8,7 +8,7 @@
+ # rogerc, 2008, 2009, 2010, 2011
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Client\n"
++"Project-Id-Version: Kogaion Entropy Client\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:08+0100\n"
+ "PO-Revision-Date: 2014-02-14 15:14+0000\n"
+@@ -4686,12 +4686,12 @@
+ msgstr "Usa la interfície web de paquets"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:193
+-msgid "_Sabayon Linux Website"
+-msgstr "_Web de Sabayon Linux"
++msgid "_Kogaion Linux Website"
++msgstr "_Web de Kogaion Linux"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:194
+-msgid "Launch Sabayon Linux Website"
+-msgstr "Mostra la pàgina web de Sabayon Linux"
++msgid "Launch Kogaion Linux Website"
++msgstr "Mostra la pàgina web de Kogaion Linux"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:196
+ msgid "_Exit"
+@@ -4706,8 +4706,8 @@
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:343
+-msgid "Cannot monitor Sabayon updates"
+-msgstr "No es poden monitoritzar les actualitzacions de Sabayon"
++msgid "Cannot monitor Kogaion updates"
++msgstr "No es poden monitoritzar les actualitzacions de Kogaion"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:345
+ msgid "Entropy DBus service not available"
+@@ -4725,8 +4725,8 @@
+ msgstr[1] "Hi ha %s actualitzacions disponibles"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:370
+-msgid "Sabayon updates available"
+-msgstr "Hi ha actualitzacions de Sabayon disponibles"
++msgid "Kogaion updates available"
++msgstr "Hi ha actualitzacions de Kogaion disponibles"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:371
+ #, python-format
+@@ -4742,8 +4742,8 @@
+ #. all fine, no updates
+ #: ../../magneto/src/magneto/core/interfaces.py:380
+ #: ../../magneto/src/magneto/core/interfaces.py:382
+-msgid "Your Sabayon is up-to-date"
+-msgstr "Sabayon està actualitzat"
++msgid "Your Kogaion is up-to-date"
++msgstr "Kogaion està actualitzat"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:383
+ msgid "No updates available at this time, cool!"
+@@ -4755,8 +4755,8 @@
+ msgstr "S'estan actualitzant els dipòsits"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:395
+-msgid "Sabayon repositories status"
+-msgstr "Estat dels repositoris de Sabayon"
++msgid "Kogaion repositories status"
++msgstr "Estat dels repositoris de Kogaion"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:396
+ msgid "Repositories are being updated automatically"
+@@ -4781,8 +4781,8 @@
+ msgstr "Aplicació de notificació d'actualitzacions activada"
+ 
+ #: ../kernel-switcher:28
+-msgid "Sabayon Kernel Switcher"
+-msgstr "Sabayon Kernel Switcher"
++msgid "Kogaion Kernel Switcher"
++msgstr "Kogaion Kernel Switcher"
+ 
+ #: ../kernel-switcher:35
+ msgid "quiet mode"
+diff -Nur a/client/po/cs.po b/client/po/cs.po
+--- a/client/po/cs.po	2015-03-17 16:16:55.000000000 +0000
++++ b/client/po/cs.po	2015-08-22 15:04:11.245625538 +0100
+@@ -7,7 +7,7 @@
+ # Tomáš Chvátal <tomas.chvatal@gmail.com>, 2012-2013
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Client\n"
++"Project-Id-Version: Kogaion Entropy Client\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:08+0100\n"
+ "PO-Revision-Date: 2014-02-14 15:14+0000\n"
+@@ -4692,12 +4692,12 @@
+ msgstr "Použít webové rozhraní prohlížení balíčků"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:193
+-msgid "_Sabayon Linux Website"
+-msgstr "_Webová stránka Sabayon Linuxu"
++msgid "_Kogaion Linux Website"
++msgstr "_Webová stránka Kogaion Linuxu"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:194
+-msgid "Launch Sabayon Linux Website"
+-msgstr "Otevřít webovou stránku Sabayon Linux"
++msgid "Launch Kogaion Linux Website"
++msgstr "Otevřít webovou stránku Kogaion Linux"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:196
+ msgid "_Exit"
+@@ -4712,8 +4712,8 @@
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:343
+-msgid "Cannot monitor Sabayon updates"
+-msgstr "Nelze monitorovat aktualizace Sabayonu"
++msgid "Cannot monitor Kogaion updates"
++msgstr "Nelze monitorovat aktualizace Kogaionu"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:345
+ msgid "Entropy DBus service not available"
+@@ -4732,8 +4732,8 @@
+ msgstr[2] "Je dostupných %s aktualizací"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:370
+-msgid "Sabayon updates available"
+-msgstr "Dostupné aktualizace Sabayonu"
++msgid "Kogaion updates available"
++msgstr "Dostupné aktualizace Kogaionu"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:371
+ #, python-format
+@@ -4750,8 +4750,8 @@
+ #. all fine, no updates
+ #: ../../magneto/src/magneto/core/interfaces.py:380
+ #: ../../magneto/src/magneto/core/interfaces.py:382
+-msgid "Your Sabayon is up-to-date"
+-msgstr "Váš Sabayon je aktuální"
++msgid "Your Kogaion is up-to-date"
++msgstr "Váš Kogaion je aktuální"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:383
+ msgid "No updates available at this time, cool!"
+@@ -4763,8 +4763,8 @@
+ msgstr "Repozitáře se aktualizují"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:395
+-msgid "Sabayon repositories status"
+-msgstr "Stav repozitářů Sabayon"
++msgid "Kogaion repositories status"
++msgstr "Stav repozitářů Kogaion"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:396
+ msgid "Repositories are being updated automatically"
+@@ -4789,8 +4789,8 @@
+ msgstr "Applet oznamování aktualizací povolen"
+ 
+ #: ../kernel-switcher:28
+-msgid "Sabayon Kernel Switcher"
+-msgstr "Přepínač jader Sabayon"
++msgid "Kogaion Kernel Switcher"
++msgstr "Přepínač jader Kogaion"
+ 
+ #: ../kernel-switcher:35
+ msgid "quiet mode"
+diff -Nur a/client/po/da.po b/client/po/da.po
+--- a/client/po/da.po	2015-03-17 16:16:55.000000000 +0000
++++ b/client/po/da.po	2015-08-22 15:04:11.246625538 +0100
+@@ -6,7 +6,7 @@
+ # Tim Lauridsen <tla@rasmil.dk>, 2005
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Client\n"
++"Project-Id-Version: Kogaion Entropy Client\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:08+0100\n"
+ "PO-Revision-Date: 2014-02-14 15:14+0000\n"
+@@ -4684,11 +4684,11 @@
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:193
+-msgid "_Sabayon Linux Website"
++msgid "_Kogaion Linux Website"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:194
+-msgid "Launch Sabayon Linux Website"
++msgid "Launch Kogaion Linux Website"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:196
+@@ -4704,7 +4704,7 @@
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:343
+-msgid "Cannot monitor Sabayon updates"
++msgid "Cannot monitor Kogaion updates"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:345
+@@ -4723,7 +4723,7 @@
+ msgstr[1] ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:370
+-msgid "Sabayon updates available"
++msgid "Kogaion updates available"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:371
+@@ -4740,7 +4740,7 @@
+ #. all fine, no updates
+ #: ../../magneto/src/magneto/core/interfaces.py:380
+ #: ../../magneto/src/magneto/core/interfaces.py:382
+-msgid "Your Sabayon is up-to-date"
++msgid "Your Kogaion is up-to-date"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:383
+@@ -4753,7 +4753,7 @@
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:395
+-msgid "Sabayon repositories status"
++msgid "Kogaion repositories status"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:396
+@@ -4779,7 +4779,7 @@
+ msgstr ""
+ 
+ #: ../kernel-switcher:28
+-msgid "Sabayon Kernel Switcher"
++msgid "Kogaion Kernel Switcher"
+ msgstr ""
+ 
+ #: ../kernel-switcher:35
+diff -Nur a/client/po/de.po b/client/po/de.po
+--- a/client/po/de.po	2015-03-17 16:16:55.000000000 +0000
++++ b/client/po/de.po	2015-08-22 15:04:11.247625538 +0100
+@@ -9,7 +9,7 @@
+ # penguinized <penguinized@ymail.com>, 2012
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Client\n"
++"Project-Id-Version: Kogaion Entropy Client\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:08+0100\n"
+ "PO-Revision-Date: 2014-02-14 15:14+0000\n"
+@@ -4687,12 +4687,12 @@
+ msgstr "Benutze Paket-Webinterface"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:193
+-msgid "_Sabayon Linux Website"
+-msgstr "Sabayon _Linux Webseite"
++msgid "_Kogaion Linux Website"
++msgstr "Kogaion _Linux Webseite"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:194
+-msgid "Launch Sabayon Linux Website"
+-msgstr "Öffne die Sabayon Linux Webseite"
++msgid "Launch Kogaion Linux Website"
++msgstr "Öffne die Kogaion Linux Webseite"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:196
+ msgid "_Exit"
+@@ -4707,8 +4707,8 @@
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:343
+-msgid "Cannot monitor Sabayon updates"
+-msgstr "Kann Sabayonupdates nicht überwachen"
++msgid "Cannot monitor Kogaion updates"
++msgstr "Kann Kogaionupdates nicht überwachen"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:345
+ msgid "Entropy DBus service not available"
+@@ -4726,8 +4726,8 @@
+ msgstr[1] "Es sind %s Updates verfügbar"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:370
+-msgid "Sabayon updates available"
+-msgstr "Sabayon Aktualisierungen sind verfügbar"
++msgid "Kogaion updates available"
++msgstr "Kogaion Aktualisierungen sind verfügbar"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:371
+ #, python-format
+@@ -4743,8 +4743,8 @@
+ #. all fine, no updates
+ #: ../../magneto/src/magneto/core/interfaces.py:380
+ #: ../../magneto/src/magneto/core/interfaces.py:382
+-msgid "Your Sabayon is up-to-date"
+-msgstr "Dein Sabayon ist auf dem neuesten Stand"
++msgid "Your Kogaion is up-to-date"
++msgstr "Dein Kogaion ist auf dem neuesten Stand"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:383
+ msgid "No updates available at this time, cool!"
+@@ -4756,8 +4756,8 @@
+ msgstr "Repositorien werden aktualisiert"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:395
+-msgid "Sabayon repositories status"
+-msgstr "Sabayon Repositoriums-Status"
++msgid "Kogaion repositories status"
++msgstr "Kogaion Repositoriums-Status"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:396
+ msgid "Repositories are being updated automatically"
+@@ -4782,8 +4782,8 @@
+ msgstr "Programm zur Anzeige von Aktualisierungen aktiviert"
+ 
+ #: ../kernel-switcher:28
+-msgid "Sabayon Kernel Switcher"
+-msgstr "Sabayon Kernel Umschalter"
++msgid "Kogaion Kernel Switcher"
++msgstr "Kogaion Kernel Umschalter"
+ 
+ #: ../kernel-switcher:35
+ msgid "quiet mode"
+diff -Nur a/client/po/entropy.pot b/client/po/entropy.pot
+--- a/client/po/entropy.pot	2015-03-17 16:16:55.000000000 +0000
++++ b/client/po/entropy.pot	2015-08-22 15:04:11.248625537 +0100
+@@ -4682,11 +4682,11 @@
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:193
+-msgid "_Sabayon Linux Website"
++msgid "_Kogaion Linux Website"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:194
+-msgid "Launch Sabayon Linux Website"
++msgid "Launch Kogaion Linux Website"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:196
+@@ -4702,7 +4702,7 @@
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:343
+-msgid "Cannot monitor Sabayon updates"
++msgid "Cannot monitor Kogaion updates"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:345
+@@ -4721,7 +4721,7 @@
+ msgstr[1] ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:370
+-msgid "Sabayon updates available"
++msgid "Kogaion updates available"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:371
+@@ -4738,7 +4738,7 @@
+ #. all fine, no updates
+ #: ../../magneto/src/magneto/core/interfaces.py:380
+ #: ../../magneto/src/magneto/core/interfaces.py:382
+-msgid "Your Sabayon is up-to-date"
++msgid "Your Kogaion is up-to-date"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:383
+@@ -4751,7 +4751,7 @@
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:395
+-msgid "Sabayon repositories status"
++msgid "Kogaion repositories status"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:396
+@@ -4777,7 +4777,7 @@
+ msgstr ""
+ 
+ #: ../kernel-switcher:28
+-msgid "Sabayon Kernel Switcher"
++msgid "Kogaion Kernel Switcher"
+ msgstr ""
+ 
+ #: ../kernel-switcher:35
+diff -Nur a/client/po/es.po b/client/po/es.po
+--- a/client/po/es.po	2015-03-17 16:16:55.000000000 +0000
++++ b/client/po/es.po	2015-08-22 15:04:11.250625537 +0100
+@@ -7,7 +7,7 @@
+ # Danilo Riffo <danriffo@gmail.com>, 2012-2013
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Client\n"
++"Project-Id-Version: Kogaion Entropy Client\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:08+0100\n"
+ "PO-Revision-Date: 2014-02-14 15:14+0000\n"
+@@ -4685,12 +4685,12 @@
+ msgstr "Usa la interfaz web de los paquetes"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:193
+-msgid "_Sabayon Linux Website"
+-msgstr "Sitio web de Sabayon _Linux"
++msgid "_Kogaion Linux Website"
++msgstr "Sitio web de Kogaion _Linux"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:194
+-msgid "Launch Sabayon Linux Website"
+-msgstr "Abrir la web de Sabayon Linux"
++msgid "Launch Kogaion Linux Website"
++msgstr "Abrir la web de Kogaion Linux"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:196
+ msgid "_Exit"
+@@ -4705,8 +4705,8 @@
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:343
+-msgid "Cannot monitor Sabayon updates"
+-msgstr "No se pueden monitorizar las actualizaciones de Sabayon"
++msgid "Cannot monitor Kogaion updates"
++msgstr "No se pueden monitorizar las actualizaciones de Kogaion"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:345
+ msgid "Entropy DBus service not available"
+@@ -4724,8 +4724,8 @@
+ msgstr[1] ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:370
+-msgid "Sabayon updates available"
+-msgstr "Actualizaciones de Sabayon disponibles"
++msgid "Kogaion updates available"
++msgstr "Actualizaciones de Kogaion disponibles"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:371
+ #, python-format
+@@ -4741,8 +4741,8 @@
+ #. all fine, no updates
+ #: ../../magneto/src/magneto/core/interfaces.py:380
+ #: ../../magneto/src/magneto/core/interfaces.py:382
+-msgid "Your Sabayon is up-to-date"
+-msgstr "Sabayon está completamente actualizado"
++msgid "Your Kogaion is up-to-date"
++msgstr "Kogaion está completamente actualizado"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:383
+ msgid "No updates available at this time, cool!"
+@@ -4754,8 +4754,8 @@
+ msgstr "Los repositorios están actualizándose"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:395
+-msgid "Sabayon repositories status"
+-msgstr "Estado de los repositorios de Sabayon"
++msgid "Kogaion repositories status"
++msgstr "Estado de los repositorios de Kogaion"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:396
+ msgid "Repositories are being updated automatically"
+@@ -4780,7 +4780,7 @@
+ msgstr "Applet de Notificación de Actualizaciones activado"
+ 
+ #: ../kernel-switcher:28
+-msgid "Sabayon Kernel Switcher"
++msgid "Kogaion Kernel Switcher"
+ msgstr ""
+ 
+ #: ../kernel-switcher:35
+diff -Nur a/client/po/es_CL.po b/client/po/es_CL.po
+--- a/client/po/es_CL.po	2015-03-17 16:16:55.000000000 +0000
++++ b/client/po/es_CL.po	2015-08-22 15:04:11.249625537 +0100
+@@ -7,7 +7,7 @@
+ # Danilo Riffo <danriffo@gmail.com>, 2012
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Client\n"
++"Project-Id-Version: Kogaion Entropy Client\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:08+0100\n"
+ "PO-Revision-Date: 2014-02-14 15:14+0000\n"
+@@ -4685,12 +4685,12 @@
+ msgstr "Usa la interfaz web de los paquetes"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:193
+-msgid "_Sabayon Linux Website"
+-msgstr "Sitio web de Sabayon _Linux"
++msgid "_Kogaion Linux Website"
++msgstr "Sitio web de Kogaion _Linux"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:194
+-msgid "Launch Sabayon Linux Website"
+-msgstr "Abrir la web de Sabayon Linux"
++msgid "Launch Kogaion Linux Website"
++msgstr "Abrir la web de Kogaion Linux"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:196
+ msgid "_Exit"
+@@ -4705,8 +4705,8 @@
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:343
+-msgid "Cannot monitor Sabayon updates"
+-msgstr "No se pueden monitorizar las actualizaciones de Sabayon"
++msgid "Cannot monitor Kogaion updates"
++msgstr "No se pueden monitorizar las actualizaciones de Kogaion"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:345
+ msgid "Entropy DBus service not available"
+@@ -4724,8 +4724,8 @@
+ msgstr[1] ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:370
+-msgid "Sabayon updates available"
+-msgstr "Actualizaciones de Sabayon disponibles"
++msgid "Kogaion updates available"
++msgstr "Actualizaciones de Kogaion disponibles"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:371
+ #, python-format
+@@ -4741,8 +4741,8 @@
+ #. all fine, no updates
+ #: ../../magneto/src/magneto/core/interfaces.py:380
+ #: ../../magneto/src/magneto/core/interfaces.py:382
+-msgid "Your Sabayon is up-to-date"
+-msgstr "Sabayon está completamente actualizado"
++msgid "Your Kogaion is up-to-date"
++msgstr "Kogaion está completamente actualizado"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:383
+ msgid "No updates available at this time, cool!"
+@@ -4754,8 +4754,8 @@
+ msgstr "Los repositorios están actualizándose"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:395
+-msgid "Sabayon repositories status"
+-msgstr "Estado de los repositorios de Sabayon"
++msgid "Kogaion repositories status"
++msgstr "Estado de los repositorios de Kogaion"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:396
+ msgid "Repositories are being updated automatically"
+@@ -4780,7 +4780,7 @@
+ msgstr "Applet de Notificación de Actualizaciones activado"
+ 
+ #: ../kernel-switcher:28
+-msgid "Sabayon Kernel Switcher"
++msgid "Kogaion Kernel Switcher"
+ msgstr ""
+ 
+ #: ../kernel-switcher:35
+diff -Nur a/client/po/fr.po b/client/po/fr.po
+--- a/client/po/fr.po	2015-03-17 16:16:55.000000000 +0000
++++ b/client/po/fr.po	2015-08-22 15:04:11.252625537 +0100
+@@ -9,7 +9,7 @@
+ # cyto <medioni.thomas@gmail.com>, 2013
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Client\n"
++"Project-Id-Version: Kogaion Entropy Client\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:08+0100\n"
+ "PO-Revision-Date: 2014-02-14 15:14+0000\n"
+@@ -4687,12 +4687,12 @@
+ msgstr "Utiliser l'interface Web des paquets"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:193
+-msgid "_Sabayon Linux Website"
+-msgstr "Site _Web Sabayon Linux "
++msgid "_Kogaion Linux Website"
++msgstr "Site _Web Kogaion Linux "
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:194
+-msgid "Launch Sabayon Linux Website"
+-msgstr "Démarrer le site Web de Sabayon Linux"
++msgid "Launch Kogaion Linux Website"
++msgstr "Démarrer le site Web de Kogaion Linux"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:196
+ msgid "_Exit"
+@@ -4707,8 +4707,8 @@
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:343
+-msgid "Cannot monitor Sabayon updates"
+-msgstr "Impossible de surveiller les mises à jour de Sabayon"
++msgid "Cannot monitor Kogaion updates"
++msgstr "Impossible de surveiller les mises à jour de Kogaion"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:345
+ msgid "Entropy DBus service not available"
+@@ -4726,8 +4726,8 @@
+ msgstr[1] "Il y a %s mises à jour disponibles"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:370
+-msgid "Sabayon updates available"
+-msgstr "Mises à jour Sabayon disponibles"
++msgid "Kogaion updates available"
++msgstr "Mises à jour Kogaion disponibles"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:371
+ #, python-format
+@@ -4743,8 +4743,8 @@
+ #. all fine, no updates
+ #: ../../magneto/src/magneto/core/interfaces.py:380
+ #: ../../magneto/src/magneto/core/interfaces.py:382
+-msgid "Your Sabayon is up-to-date"
+-msgstr "Votre Sabayon est à jour"
++msgid "Your Kogaion is up-to-date"
++msgstr "Votre Kogaion est à jour"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:383
+ msgid "No updates available at this time, cool!"
+@@ -4756,8 +4756,8 @@
+ msgstr "Les dépôts sont en cours de mise à jour"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:395
+-msgid "Sabayon repositories status"
+-msgstr "État des dépôts de Sabayon"
++msgid "Kogaion repositories status"
++msgstr "État des dépôts de Kogaion"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:396
+ msgid "Repositories are being updated automatically"
+@@ -4782,7 +4782,7 @@
+ msgstr "Applet de notification de mises à jour activé"
+ 
+ #: ../kernel-switcher:28
+-msgid "Sabayon Kernel Switcher"
++msgid "Kogaion Kernel Switcher"
+ msgstr ""
+ 
+ #: ../kernel-switcher:35
+diff -Nur a/client/po/fr_CA.po b/client/po/fr_CA.po
+--- a/client/po/fr_CA.po	2015-03-17 16:16:55.000000000 +0000
++++ b/client/po/fr_CA.po	2015-08-22 15:04:11.251625537 +0100
+@@ -5,7 +5,7 @@
+ # Translators:
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Client\n"
++"Project-Id-Version: Kogaion Entropy Client\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:08+0100\n"
+ "PO-Revision-Date: 2014-02-14 15:14+0000\n"
+@@ -4683,12 +4683,12 @@
+ msgstr "Utiliser l'interface Web des paquets"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:193
+-msgid "_Sabayon Linux Website"
+-msgstr "Site _Web Sabayon Linux "
++msgid "_Kogaion Linux Website"
++msgstr "Site _Web Kogaion Linux "
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:194
+-msgid "Launch Sabayon Linux Website"
+-msgstr "Démarrer le site Web de Sabayon Linux"
++msgid "Launch Kogaion Linux Website"
++msgstr "Démarrer le site Web de Kogaion Linux"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:196
+ msgid "_Exit"
+@@ -4703,8 +4703,8 @@
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:343
+-msgid "Cannot monitor Sabayon updates"
+-msgstr "Impossible de surveiller les mises à jour de Sabayon"
++msgid "Cannot monitor Kogaion updates"
++msgstr "Impossible de surveiller les mises à jour de Kogaion"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:345
+ msgid "Entropy DBus service not available"
+@@ -4722,8 +4722,8 @@
+ msgstr[1] ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:370
+-msgid "Sabayon updates available"
+-msgstr "Mises à jour Sabayon disponibles"
++msgid "Kogaion updates available"
++msgstr "Mises à jour Kogaion disponibles"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:371
+ #, python-format
+@@ -4739,8 +4739,8 @@
+ #. all fine, no updates
+ #: ../../magneto/src/magneto/core/interfaces.py:380
+ #: ../../magneto/src/magneto/core/interfaces.py:382
+-msgid "Your Sabayon is up-to-date"
+-msgstr "Votre Sabayon est à jour"
++msgid "Your Kogaion is up-to-date"
++msgstr "Votre Kogaion est à jour"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:383
+ msgid "No updates available at this time, cool!"
+@@ -4752,8 +4752,8 @@
+ msgstr "Les dépôts sont en cours de mise à jour"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:395
+-msgid "Sabayon repositories status"
+-msgstr "État des dépôts de Sabayon"
++msgid "Kogaion repositories status"
++msgstr "État des dépôts de Kogaion"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:396
+ msgid "Repositories are being updated automatically"
+@@ -4778,7 +4778,7 @@
+ msgstr "Applet de notification de mises à jour activé"
+ 
+ #: ../kernel-switcher:28
+-msgid "Sabayon Kernel Switcher"
++msgid "Kogaion Kernel Switcher"
+ msgstr ""
+ 
+ #: ../kernel-switcher:35
+diff -Nur a/client/po/hr.po b/client/po/hr.po
+--- a/client/po/hr.po	2015-03-17 16:16:55.000000000 +0000
++++ b/client/po/hr.po	2015-08-22 15:04:11.253625537 +0100
+@@ -6,7 +6,7 @@
+ # Ivica  Kolić <ikoli@yahoo.com>, 2012-2014
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Client\n"
++"Project-Id-Version: Kogaion Entropy Client\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:08+0100\n"
+ "PO-Revision-Date: 2014-02-20 15:52+0000\n"
+@@ -4691,12 +4691,12 @@
+ msgstr "Koristi web sučelje paketa"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:193
+-msgid "_Sabayon Linux Website"
+-msgstr "_Sabayon Linux web stranica"
++msgid "_Kogaion Linux Website"
++msgstr "_Kogaion Linux web stranica"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:194
+-msgid "Launch Sabayon Linux Website"
+-msgstr "Pokreni Sabayon Linux web stranicu"
++msgid "Launch Kogaion Linux Website"
++msgstr "Pokreni Kogaion Linux web stranicu"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:196
+ msgid "_Exit"
+@@ -4711,7 +4711,7 @@
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:343
+-msgid "Cannot monitor Sabayon updates"
++msgid "Cannot monitor Kogaion updates"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:345
+@@ -4731,8 +4731,8 @@
+ msgstr[2] "Postoji %s dostupno ažuriranja"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:370
+-msgid "Sabayon updates available"
+-msgstr "Sabayon dopune dostupne"
++msgid "Kogaion updates available"
++msgstr "Kogaion dopune dostupne"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:371
+ #, python-format
+@@ -4749,8 +4749,8 @@
+ #. all fine, no updates
+ #: ../../magneto/src/magneto/core/interfaces.py:380
+ #: ../../magneto/src/magneto/core/interfaces.py:382
+-msgid "Your Sabayon is up-to-date"
+-msgstr "Vaš Sabayon je ažuriran"
++msgid "Your Kogaion is up-to-date"
++msgstr "Vaš Kogaion je ažuriran"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:383
+ msgid "No updates available at this time, cool!"
+@@ -4762,8 +4762,8 @@
+ msgstr "Repozitoriji su dopunjeni"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:395
+-msgid "Sabayon repositories status"
+-msgstr "Status Sabayon repozitorija"
++msgid "Kogaion repositories status"
++msgstr "Status Kogaion repozitorija"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:396
+ msgid "Repositories are being updated automatically"
+@@ -4788,7 +4788,7 @@
+ msgstr ""
+ 
+ #: ../kernel-switcher:28
+-msgid "Sabayon Kernel Switcher"
++msgid "Kogaion Kernel Switcher"
+ msgstr ""
+ 
+ #: ../kernel-switcher:35
+diff -Nur a/client/po/hu.po b/client/po/hu.po
+--- a/client/po/hu.po	2015-03-17 16:16:55.000000000 +0000
++++ b/client/po/hu.po	2015-08-22 15:04:11.254625537 +0100
+@@ -6,7 +6,7 @@
+ # andrewtranslates <andrewtranslates@aol.com>, 2014
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Client\n"
++"Project-Id-Version: Kogaion Entropy Client\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:08+0100\n"
+ "PO-Revision-Date: 2014-02-14 15:14+0000\n"
+@@ -4684,11 +4684,11 @@
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:193
+-msgid "_Sabayon Linux Website"
++msgid "_Kogaion Linux Website"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:194
+-msgid "Launch Sabayon Linux Website"
++msgid "Launch Kogaion Linux Website"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:196
+@@ -4704,7 +4704,7 @@
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:343
+-msgid "Cannot monitor Sabayon updates"
++msgid "Cannot monitor Kogaion updates"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:345
+@@ -4723,8 +4723,8 @@
+ msgstr[1] ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:370
+-msgid "Sabayon updates available"
+-msgstr "Sabayon frissítések elérhetőek"
++msgid "Kogaion updates available"
++msgstr "Kogaion frissítések elérhetőek"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:371
+ #, python-format
+@@ -4740,8 +4740,8 @@
+ #. all fine, no updates
+ #: ../../magneto/src/magneto/core/interfaces.py:380
+ #: ../../magneto/src/magneto/core/interfaces.py:382
+-msgid "Your Sabayon is up-to-date"
+-msgstr "Naprakész a Sabayon"
++msgid "Your Kogaion is up-to-date"
++msgstr "Naprakész a Kogaion"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:383
+ msgid "No updates available at this time, cool!"
+@@ -4753,8 +4753,8 @@
+ msgstr "A programcsomagok épp automatikusan frissülnek"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:395
+-msgid "Sabayon repositories status"
+-msgstr "Sabayon programcsomagok státusza"
++msgid "Kogaion repositories status"
++msgstr "Kogaion programcsomagok státusza"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:396
+ msgid "Repositories are being updated automatically"
+@@ -4779,7 +4779,7 @@
+ msgstr ""
+ 
+ #: ../kernel-switcher:28
+-msgid "Sabayon Kernel Switcher"
++msgid "Kogaion Kernel Switcher"
+ msgstr ""
+ 
+ #: ../kernel-switcher:35
+diff -Nur a/client/po/it.po b/client/po/it.po
+--- a/client/po/it.po	2015-03-17 16:16:55.000000000 +0000
++++ b/client/po/it.po	2015-08-22 15:04:11.255625537 +0100
+@@ -10,7 +10,7 @@
+ # lxnay <lxnay@sabayon.org>, 2012
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Client\n"
++"Project-Id-Version: Kogaion Entropy Client\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:08+0100\n"
+ "PO-Revision-Date: 2014-02-14 15:14+0000\n"
+@@ -4688,12 +4688,12 @@
+ msgstr "Usa interfaccia web pacchetti"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:193
+-msgid "_Sabayon Linux Website"
+-msgstr "_Sito web Sabayon Linux"
++msgid "_Kogaion Linux Website"
++msgstr "_Sito web Kogaion Linux"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:194
+-msgid "Launch Sabayon Linux Website"
+-msgstr "Carica il sito web di Sabayon Linux"
++msgid "Launch Kogaion Linux Website"
++msgstr "Carica il sito web di Kogaion Linux"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:196
+ msgid "_Exit"
+@@ -4708,8 +4708,8 @@
+ msgstr "Il sistema dovrebbe essere riavviato quanto prima"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:343
+-msgid "Cannot monitor Sabayon updates"
+-msgstr "Impossibile monitorare gli aggiornamenti di Sabayon."
++msgid "Cannot monitor Kogaion updates"
++msgstr "Impossibile monitorare gli aggiornamenti di Kogaion."
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:345
+ msgid "Entropy DBus service not available"
+@@ -4727,8 +4727,8 @@
+ msgstr[1] "Ci sono %s aggiornamenti disponibili"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:370
+-msgid "Sabayon updates available"
+-msgstr "Aggiornamenti Sabayon disponibili"
++msgid "Kogaion updates available"
++msgstr "Aggiornamenti Kogaion disponibili"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:371
+ #, python-format
+@@ -4744,8 +4744,8 @@
+ #. all fine, no updates
+ #: ../../magneto/src/magneto/core/interfaces.py:380
+ #: ../../magneto/src/magneto/core/interfaces.py:382
+-msgid "Your Sabayon is up-to-date"
+-msgstr "La tua Sabayon è aggiornata."
++msgid "Your Kogaion is up-to-date"
++msgstr "La tua Kogaion è aggiornata."
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:383
+ msgid "No updates available at this time, cool!"
+@@ -4757,8 +4757,8 @@
+ msgstr "Repository in fase di aggiornamento"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:395
+-msgid "Sabayon repositories status"
+-msgstr "Stato repository Sabayon"
++msgid "Kogaion repositories status"
++msgstr "Stato repository Kogaion"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:396
+ msgid "Repositories are being updated automatically"
+@@ -4783,8 +4783,8 @@
+ msgstr "Applet di notifica aggiornamenti abilitata"
+ 
+ #: ../kernel-switcher:28
+-msgid "Sabayon Kernel Switcher"
+-msgstr "Sabayon Kernel Switcher"
++msgid "Kogaion Kernel Switcher"
++msgstr "Kogaion Kernel Switcher"
+ 
+ #: ../kernel-switcher:35
+ msgid "quiet mode"
+diff -Nur a/client/po/nl.po b/client/po/nl.po
+--- a/client/po/nl.po	2015-03-17 16:16:55.000000000 +0000
++++ b/client/po/nl.po	2015-08-22 15:04:11.256625537 +0100
+@@ -6,7 +6,7 @@
+ # Parhan <dyingmuppet@sabayon.org>, 2008
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Client\n"
++"Project-Id-Version: Kogaion Entropy Client\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:08+0100\n"
+ "PO-Revision-Date: 2014-02-14 15:14+0000\n"
+@@ -4684,12 +4684,12 @@
+ msgstr "Gebruik Pakketten web omgeving"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:193
+-msgid "_Sabayon Linux Website"
+-msgstr "_Sabayon Linux Website"
++msgid "_Kogaion Linux Website"
++msgstr "_Kogaion Linux Website"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:194
+-msgid "Launch Sabayon Linux Website"
+-msgstr "Ga naar Sabayon Linux Website"
++msgid "Launch Kogaion Linux Website"
++msgstr "Ga naar Kogaion Linux Website"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:196
+ msgid "_Exit"
+@@ -4704,8 +4704,8 @@
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:343
+-msgid "Cannot monitor Sabayon updates"
+-msgstr "Kan Sabayon updates niet monitoren"
++msgid "Cannot monitor Kogaion updates"
++msgstr "Kan Kogaion updates niet monitoren"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:345
+ msgid "Entropy DBus service not available"
+@@ -4723,8 +4723,8 @@
+ msgstr[1] ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:370
+-msgid "Sabayon updates available"
+-msgstr "Sabayon updates beschikbaar"
++msgid "Kogaion updates available"
++msgstr "Kogaion updates beschikbaar"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:371
+ #, python-format
+@@ -4740,8 +4740,8 @@
+ #. all fine, no updates
+ #: ../../magneto/src/magneto/core/interfaces.py:380
+ #: ../../magneto/src/magneto/core/interfaces.py:382
+-msgid "Your Sabayon is up-to-date"
+-msgstr "Jouw Sabayon is up-to-date"
++msgid "Your Kogaion is up-to-date"
++msgstr "Jouw Kogaion is up-to-date"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:383
+ msgid "No updates available at this time, cool!"
+@@ -4753,8 +4753,8 @@
+ msgstr "Repositories worden bijgewerkt"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:395
+-msgid "Sabayon repositories status"
+-msgstr "Sabayon repositories status"
++msgid "Kogaion repositories status"
++msgstr "Kogaion repositories status"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:396
+ msgid "Repositories are being updated automatically"
+@@ -4779,7 +4779,7 @@
+ msgstr "Updates Notificatie Applet Geactiveerd"
+ 
+ #: ../kernel-switcher:28
+-msgid "Sabayon Kernel Switcher"
++msgid "Kogaion Kernel Switcher"
+ msgstr ""
+ 
+ #: ../kernel-switcher:35
+diff -Nur a/client/po/pl.po b/client/po/pl.po
+--- a/client/po/pl.po	2015-03-17 16:16:55.000000000 +0000
++++ b/client/po/pl.po	2015-08-22 15:04:11.258625537 +0100
+@@ -10,7 +10,7 @@
+ # RyD0pR3c <prendter@gmail.com>, 2013-2014
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Client\n"
++"Project-Id-Version: Kogaion Entropy Client\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:08+0100\n"
+ "PO-Revision-Date: 2014-03-23 09:19+0000\n"
+@@ -4695,12 +4695,12 @@
+ msgstr "Interfejs webowy dla pakietów"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:193
+-msgid "_Sabayon Linux Website"
+-msgstr "_Witryna Sabayon Linux"
++msgid "_Kogaion Linux Website"
++msgstr "_Witryna Kogaion Linux"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:194
+-msgid "Launch Sabayon Linux Website"
+-msgstr "Wyświetl witrynę Sabayona"
++msgid "Launch Kogaion Linux Website"
++msgstr "Wyświetl witrynę Kogaiona"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:196
+ msgid "_Exit"
+@@ -4715,8 +4715,8 @@
+ msgstr "System powinien zostać zrestartowany jak najszybciej, gdy tylko będzie to wygodne"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:343
+-msgid "Cannot monitor Sabayon updates"
+-msgstr "Nie można monitorować aktualizacji Sabayona"
++msgid "Cannot monitor Kogaion updates"
++msgstr "Nie można monitorować aktualizacji Kogaiona"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:345
+ msgid "Entropy DBus service not available"
+@@ -4735,8 +4735,8 @@
+ msgstr[2] "Jest %s dostępnych aktualizacji"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:370
+-msgid "Sabayon updates available"
+-msgstr "aktualizacje Sabayona dostępne"
++msgid "Kogaion updates available"
++msgstr "aktualizacje Kogaiona dostępne"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:371
+ #, python-format
+@@ -4753,8 +4753,8 @@
+ #. all fine, no updates
+ #: ../../magneto/src/magneto/core/interfaces.py:380
+ #: ../../magneto/src/magneto/core/interfaces.py:382
+-msgid "Your Sabayon is up-to-date"
+-msgstr "Twój Sabayon jest aktualny"
++msgid "Your Kogaion is up-to-date"
++msgstr "Twój Kogaion jest aktualny"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:383
+ msgid "No updates available at this time, cool!"
+@@ -4766,8 +4766,8 @@
+ msgstr "Repozytoria są teraz aktualizowane"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:395
+-msgid "Sabayon repositories status"
+-msgstr "Status repozytoriów Sabayona"
++msgid "Kogaion repositories status"
++msgstr "Status repozytoriów Kogaiona"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:396
+ msgid "Repositories are being updated automatically"
+@@ -4792,8 +4792,8 @@
+ msgstr "Aplet powiadomień o aktualizacjach aktywny"
+ 
+ #: ../kernel-switcher:28
+-msgid "Sabayon Kernel Switcher"
+-msgstr "Przełącznik jądra Sabayon"
++msgid "Kogaion Kernel Switcher"
++msgstr "Przełącznik jądra Kogaion"
+ 
+ #: ../kernel-switcher:35
+ msgid "quiet mode"
+diff -Nur a/client/po/pt.po b/client/po/pt.po
+--- a/client/po/pt.po	2015-03-17 16:16:55.000000000 +0000
++++ b/client/po/pt.po	2015-08-22 15:04:11.260625537 +0100
+@@ -8,7 +8,7 @@
+ #   <albfneto@fcfrp.usp.br>, 2012
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Client\n"
++"Project-Id-Version: Kogaion Entropy Client\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:08+0100\n"
+ "PO-Revision-Date: 2014-02-14 15:14+0000\n"
+@@ -4686,12 +4686,12 @@
+ msgstr "Use a interface Web dos pacotes"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:193
+-msgid "_Sabayon Linux Website"
+-msgstr "Website _Sabayon Linux "
++msgid "_Kogaion Linux Website"
++msgstr "Website _Kogaion Linux "
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:194
+-msgid "Launch Sabayon Linux Website"
+-msgstr "Carrega o Site do Sabayon Linux"
++msgid "Launch Kogaion Linux Website"
++msgstr "Carrega o Site do Kogaion Linux"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:196
+ msgid "_Exit"
+@@ -4706,8 +4706,8 @@
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:343
+-msgid "Cannot monitor Sabayon updates"
+-msgstr "Não monitora as atualizações do Sabayon"
++msgid "Cannot monitor Kogaion updates"
++msgstr "Não monitora as atualizações do Kogaion"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:345
+ msgid "Entropy DBus service not available"
+@@ -4725,8 +4725,8 @@
+ msgstr[1] "Existem %s atualizações disponíveis"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:370
+-msgid "Sabayon updates available"
+-msgstr "Atualizações do Sabayon disponíveis"
++msgid "Kogaion updates available"
++msgstr "Atualizações do Kogaion disponíveis"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:371
+ #, python-format
+@@ -4742,8 +4742,8 @@
+ #. all fine, no updates
+ #: ../../magneto/src/magneto/core/interfaces.py:380
+ #: ../../magneto/src/magneto/core/interfaces.py:382
+-msgid "Your Sabayon is up-to-date"
+-msgstr "Seu Sabayon está atualizado"
++msgid "Your Kogaion is up-to-date"
++msgstr "Seu Kogaion está atualizado"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:383
+ msgid "No updates available at this time, cool!"
+@@ -4755,8 +4755,8 @@
+ msgstr "Repositórios estão sendo atualizados"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:395
+-msgid "Sabayon repositories status"
+-msgstr "Status dos repositórios Sabayon"
++msgid "Kogaion repositories status"
++msgstr "Status dos repositórios Kogaion"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:396
+ msgid "Repositories are being updated automatically"
+@@ -4781,7 +4781,7 @@
+ msgstr "Notificador de atualizações habilitado"
+ 
+ #: ../kernel-switcher:28
+-msgid "Sabayon Kernel Switcher"
++msgid "Kogaion Kernel Switcher"
+ msgstr "Trocador de Kernel"
+ 
+ #: ../kernel-switcher:35
+diff -Nur a/client/po/pt_BR.po b/client/po/pt_BR.po
+--- a/client/po/pt_BR.po	2015-03-17 16:16:55.000000000 +0000
++++ b/client/po/pt_BR.po	2015-08-22 15:04:11.259625537 +0100
+@@ -8,7 +8,7 @@
+ # Levi Gomes <levigomes1@hotmail.com>, 2012
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Client\n"
++"Project-Id-Version: Kogaion Entropy Client\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:08+0100\n"
+ "PO-Revision-Date: 2014-02-14 15:14+0000\n"
+@@ -4686,12 +4686,12 @@
+ msgstr "Use a interface Web dos pacotes"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:193
+-msgid "_Sabayon Linux Website"
+-msgstr "Website _Sabayon Linux "
++msgid "_Kogaion Linux Website"
++msgstr "Website _Kogaion Linux "
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:194
+-msgid "Launch Sabayon Linux Website"
+-msgstr "Carrega o Site do Sabayon Linux"
++msgid "Launch Kogaion Linux Website"
++msgstr "Carrega o Site do Kogaion Linux"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:196
+ msgid "_Exit"
+@@ -4706,8 +4706,8 @@
+ msgstr "Este sistema poderá ser reinicializado quando você quiser ou achar conveniente"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:343
+-msgid "Cannot monitor Sabayon updates"
+-msgstr "Não monitora as atualizações do Sabayon"
++msgid "Cannot monitor Kogaion updates"
++msgstr "Não monitora as atualizações do Kogaion"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:345
+ msgid "Entropy DBus service not available"
+@@ -4725,8 +4725,8 @@
+ msgstr[1] "Existem %s atualizações disponíveis"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:370
+-msgid "Sabayon updates available"
+-msgstr "Atualizações do Sabayon disponíveis"
++msgid "Kogaion updates available"
++msgstr "Atualizações do Kogaion disponíveis"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:371
+ #, python-format
+@@ -4742,8 +4742,8 @@
+ #. all fine, no updates
+ #: ../../magneto/src/magneto/core/interfaces.py:380
+ #: ../../magneto/src/magneto/core/interfaces.py:382
+-msgid "Your Sabayon is up-to-date"
+-msgstr "Seu Sabayon está atualizado"
++msgid "Your Kogaion is up-to-date"
++msgstr "Seu Kogaion está atualizado"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:383
+ msgid "No updates available at this time, cool!"
+@@ -4755,8 +4755,8 @@
+ msgstr "Repositórios estão sendo atualizados"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:395
+-msgid "Sabayon repositories status"
+-msgstr "Status dos repositórios Sabayon"
++msgid "Kogaion repositories status"
++msgstr "Status dos repositórios Kogaion"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:396
+ msgid "Repositories are being updated automatically"
+@@ -4781,8 +4781,8 @@
+ msgstr "Notificador de atualizações habilitado"
+ 
+ #: ../kernel-switcher:28
+-msgid "Sabayon Kernel Switcher"
+-msgstr "Trocador de Kernel Sabayon"
++msgid "Kogaion Kernel Switcher"
++msgstr "Trocador de Kernel Kogaion"
+ 
+ #: ../kernel-switcher:35
+ msgid "quiet mode"
+diff -Nur a/client/po/ro.po b/client/po/ro.po
+--- a/client/po/ro.po	2015-03-17 16:16:55.000000000 +0000
++++ b/client/po/ro.po	2015-08-22 15:04:11.261625537 +0100
+@@ -6,7 +6,7 @@
+ # Cristian Gherman <cgherman@mandrivausers.ro>, 2013
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Client\n"
++"Project-Id-Version: Kogaion Entropy Client\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:08+0100\n"
+ "PO-Revision-Date: 2014-02-14 15:14+0000\n"
+@@ -4691,11 +4691,11 @@
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:193
+-msgid "_Sabayon Linux Website"
++msgid "_Kogaion Linux Website"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:194
+-msgid "Launch Sabayon Linux Website"
++msgid "Launch Kogaion Linux Website"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:196
+@@ -4711,7 +4711,7 @@
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:343
+-msgid "Cannot monitor Sabayon updates"
++msgid "Cannot monitor Kogaion updates"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:345
+@@ -4731,7 +4731,7 @@
+ msgstr[2] ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:370
+-msgid "Sabayon updates available"
++msgid "Kogaion updates available"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:371
+@@ -4749,7 +4749,7 @@
+ #. all fine, no updates
+ #: ../../magneto/src/magneto/core/interfaces.py:380
+ #: ../../magneto/src/magneto/core/interfaces.py:382
+-msgid "Your Sabayon is up-to-date"
++msgid "Your Kogaion is up-to-date"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:383
+@@ -4762,7 +4762,7 @@
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:395
+-msgid "Sabayon repositories status"
++msgid "Kogaion repositories status"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:396
+@@ -4788,7 +4788,7 @@
+ msgstr ""
+ 
+ #: ../kernel-switcher:28
+-msgid "Sabayon Kernel Switcher"
++msgid "Kogaion Kernel Switcher"
+ msgstr ""
+ 
+ #: ../kernel-switcher:35
+diff -Nur a/client/po/ru.po b/client/po/ru.po
+--- a/client/po/ru.po	2015-03-17 16:16:55.000000000 +0000
++++ b/client/po/ru.po	2015-08-22 15:04:11.262625537 +0100
+@@ -6,7 +6,7 @@
+ # greywalk <workisgreat@yandex.com>, 2012
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Client\n"
++"Project-Id-Version: Kogaion Entropy Client\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:08+0100\n"
+ "PO-Revision-Date: 2014-02-14 15:14+0000\n"
+@@ -4691,12 +4691,12 @@
+ msgstr "Использовать веб-интерфейс пакетов"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:193
+-msgid "_Sabayon Linux Website"
+-msgstr "Веб-_сайт Sabayon Linux"
++msgid "_Kogaion Linux Website"
++msgstr "Веб-_сайт Kogaion Linux"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:194
+-msgid "Launch Sabayon Linux Website"
+-msgstr "Открыть сайт Sabayon Linux"
++msgid "Launch Kogaion Linux Website"
++msgstr "Открыть сайт Kogaion Linux"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:196
+ msgid "_Exit"
+@@ -4711,8 +4711,8 @@
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:343
+-msgid "Cannot monitor Sabayon updates"
+-msgstr "Невозможно отобразить обновления Sabayon"
++msgid "Cannot monitor Kogaion updates"
++msgstr "Невозможно отобразить обновления Kogaion"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:345
+ msgid "Entropy DBus service not available"
+@@ -4731,8 +4731,8 @@
+ msgstr[2] ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:370
+-msgid "Sabayon updates available"
+-msgstr "Обновления Sabayon доступны"
++msgid "Kogaion updates available"
++msgstr "Обновления Kogaion доступны"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:371
+ #, python-format
+@@ -4749,8 +4749,8 @@
+ #. all fine, no updates
+ #: ../../magneto/src/magneto/core/interfaces.py:380
+ #: ../../magneto/src/magneto/core/interfaces.py:382
+-msgid "Your Sabayon is up-to-date"
+-msgstr "Ваш Sabayon уже обновлен до последней версии"
++msgid "Your Kogaion is up-to-date"
++msgstr "Ваш Kogaion уже обновлен до последней версии"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:383
+ msgid "No updates available at this time, cool!"
+@@ -4762,8 +4762,8 @@
+ msgstr "Репозитории обновляются"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:395
+-msgid "Sabayon repositories status"
+-msgstr "Статус репозиториев Sabayon"
++msgid "Kogaion repositories status"
++msgstr "Статус репозиториев Kogaion"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:396
+ msgid "Repositories are being updated automatically"
+@@ -4788,7 +4788,7 @@
+ msgstr "Апплет уведомления об обновлениях включён"
+ 
+ #: ../kernel-switcher:28
+-msgid "Sabayon Kernel Switcher"
++msgid "Kogaion Kernel Switcher"
+ msgstr ""
+ 
+ #: ../kernel-switcher:35
+diff -Nur a/client/po/sk.po b/client/po/sk.po
+--- a/client/po/sk.po	2015-03-17 16:16:55.000000000 +0000
++++ b/client/po/sk.po	2015-08-22 15:04:11.263625536 +0100
+@@ -5,7 +5,7 @@
+ # Translators:
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Client\n"
++"Project-Id-Version: Kogaion Entropy Client\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:08+0100\n"
+ "PO-Revision-Date: 2014-02-14 15:14+0000\n"
+@@ -4690,12 +4690,12 @@
+ msgstr "Použije webové rozhranie na správu balíkov"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:193
+-msgid "_Sabayon Linux Website"
+-msgstr "Webová stránka linuxu _Sabayon"
++msgid "_Kogaion Linux Website"
++msgstr "Webová stránka linuxu _Kogaion"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:194
+-msgid "Launch Sabayon Linux Website"
+-msgstr "Spustí webovú stránku linuxu Sabayon"
++msgid "Launch Kogaion Linux Website"
++msgstr "Spustí webovú stránku linuxu Kogaion"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:196
+ msgid "_Exit"
+@@ -4710,8 +4710,8 @@
+ msgstr "Tento systém by mal byť reštartovaný pri najbližšej príležitosti"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:343
+-msgid "Cannot monitor Sabayon updates"
+-msgstr "Nedajú sa sledovať aktualizácie systému Sabayon"
++msgid "Cannot monitor Kogaion updates"
++msgstr "Nedajú sa sledovať aktualizácie systému Kogaion"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:345
+ msgid "Entropy DBus service not available"
+@@ -4730,8 +4730,8 @@
+ msgstr[2] "Sú dostupné %s aktualizácie"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:370
+-msgid "Sabayon updates available"
+-msgstr "Sú dostupné aktualizácie systému Sabayon"
++msgid "Kogaion updates available"
++msgstr "Sú dostupné aktualizácie systému Kogaion"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:371
+ #, python-format
+@@ -4748,8 +4748,8 @@
+ #. all fine, no updates
+ #: ../../magneto/src/magneto/core/interfaces.py:380
+ #: ../../magneto/src/magneto/core/interfaces.py:382
+-msgid "Your Sabayon is up-to-date"
+-msgstr "Váš systém Sabayon je aktuálny"
++msgid "Your Kogaion is up-to-date"
++msgstr "Váš systém Kogaion je aktuálny"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:383
+ msgid "No updates available at this time, cool!"
+@@ -4761,8 +4761,8 @@
+ msgstr "Repozitáre budú aktualizované"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:395
+-msgid "Sabayon repositories status"
+-msgstr "Stav repozitárov systému Sabayon"
++msgid "Kogaion repositories status"
++msgstr "Stav repozitárov systému Kogaion"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:396
+ msgid "Repositories are being updated automatically"
+@@ -4787,8 +4787,8 @@
+ msgstr "Aplet upozornení na aktualizácie je povolený"
+ 
+ #: ../kernel-switcher:28
+-msgid "Sabayon Kernel Switcher"
+-msgstr "Prepínač jadier systému Sabayon"
++msgid "Kogaion Kernel Switcher"
++msgstr "Prepínač jadier systému Kogaion"
+ 
+ #: ../kernel-switcher:35
+ msgid "quiet mode"
+diff -Nur a/client/po/sv.po b/client/po/sv.po
+--- a/client/po/sv.po	2015-03-17 16:16:55.000000000 +0000
++++ b/client/po/sv.po	2015-08-22 15:04:11.264625536 +0100
+@@ -6,7 +6,7 @@
+ # Patrik Karlsson <patrik@trixon.se>, 2010
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Client\n"
++"Project-Id-Version: Kogaion Entropy Client\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:08+0100\n"
+ "PO-Revision-Date: 2014-03-21 14:02+0000\n"
+@@ -4684,12 +4684,12 @@
+ msgstr "Använd webbtjänsten för paket"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:193
+-msgid "_Sabayon Linux Website"
+-msgstr "_Sabayon Linux Webbsida"
++msgid "_Kogaion Linux Website"
++msgstr "_Kogaion Linux Webbsida"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:194
+-msgid "Launch Sabayon Linux Website"
+-msgstr "Gå till Sabayons hemsida"
++msgid "Launch Kogaion Linux Website"
++msgstr "Gå till Kogaions hemsida"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:196
+ msgid "_Exit"
+@@ -4704,8 +4704,8 @@
+ msgstr "Systemet bör startas om snarast"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:343
+-msgid "Cannot monitor Sabayon updates"
+-msgstr "Kan inte övervaka Sabayons uppdateringar"
++msgid "Cannot monitor Kogaion updates"
++msgstr "Kan inte övervaka Kogaions uppdateringar"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:345
+ msgid "Entropy DBus service not available"
+@@ -4723,8 +4723,8 @@
+ msgstr[1] "Det finns %s uppdateringar tillgängliga"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:370
+-msgid "Sabayon updates available"
+-msgstr "Det finns uppdateringar för Sabayon"
++msgid "Kogaion updates available"
++msgstr "Det finns uppdateringar för Kogaion"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:371
+ #, python-format
+@@ -4740,8 +4740,8 @@
+ #. all fine, no updates
+ #: ../../magneto/src/magneto/core/interfaces.py:380
+ #: ../../magneto/src/magneto/core/interfaces.py:382
+-msgid "Your Sabayon is up-to-date"
+-msgstr "Din Sabayon är aktuell"
++msgid "Your Kogaion is up-to-date"
++msgstr "Din Kogaion är aktuell"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:383
+ msgid "No updates available at this time, cool!"
+@@ -4753,8 +4753,8 @@
+ msgstr "Förråden uppdateras"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:395
+-msgid "Sabayon repositories status"
+-msgstr "Sabayons förrådsstatus"
++msgid "Kogaion repositories status"
++msgstr "Kogaions förrådsstatus"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:396
+ msgid "Repositories are being updated automatically"
+@@ -4779,8 +4779,8 @@
+ msgstr "Aviseringsverktyget för uppdateringar är aktiverat"
+ 
+ #: ../kernel-switcher:28
+-msgid "Sabayon Kernel Switcher"
+-msgstr "Sabayons Kärnväljare"
++msgid "Kogaion Kernel Switcher"
++msgstr "Kogaions Kärnväljare"
+ 
+ #: ../kernel-switcher:35
+ msgid "quiet mode"
+diff -Nur a/client/po/sw.po b/client/po/sw.po
+--- a/client/po/sw.po	2015-03-17 16:16:55.000000000 +0000
++++ b/client/po/sw.po	2015-08-22 15:04:11.265625536 +0100
+@@ -6,7 +6,7 @@
+ # nelson kigen <nellyk89@gmail.com>, 2014
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Client\n"
++"Project-Id-Version: Kogaion Entropy Client\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:08+0100\n"
+ "PO-Revision-Date: 2014-02-23 14:53+0000\n"
+@@ -4684,11 +4684,11 @@
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:193
+-msgid "_Sabayon Linux Website"
++msgid "_Kogaion Linux Website"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:194
+-msgid "Launch Sabayon Linux Website"
++msgid "Launch Kogaion Linux Website"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:196
+@@ -4704,7 +4704,7 @@
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:343
+-msgid "Cannot monitor Sabayon updates"
++msgid "Cannot monitor Kogaion updates"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:345
+@@ -4723,7 +4723,7 @@
+ msgstr[1] ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:370
+-msgid "Sabayon updates available"
++msgid "Kogaion updates available"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:371
+@@ -4740,7 +4740,7 @@
+ #. all fine, no updates
+ #: ../../magneto/src/magneto/core/interfaces.py:380
+ #: ../../magneto/src/magneto/core/interfaces.py:382
+-msgid "Your Sabayon is up-to-date"
++msgid "Your Kogaion is up-to-date"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:383
+@@ -4753,7 +4753,7 @@
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:395
+-msgid "Sabayon repositories status"
++msgid "Kogaion repositories status"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:396
+@@ -4779,7 +4779,7 @@
+ msgstr ""
+ 
+ #: ../kernel-switcher:28
+-msgid "Sabayon Kernel Switcher"
++msgid "Kogaion Kernel Switcher"
+ msgstr ""
+ 
+ #: ../kernel-switcher:35
+diff -Nur a/client/po/tr.po b/client/po/tr.po
+--- a/client/po/tr.po	2015-03-17 16:16:55.000000000 +0000
++++ b/client/po/tr.po	2015-08-22 15:04:11.265625536 +0100
+@@ -4,10 +4,10 @@
+ # 
+ # Translators:
+ # fthpl <fthpl@hotmail.com>, 2012
+-# SabayonTR <sabayontr@gmail.com>, 2012
++# KogaionTR <sabayontr@gmail.com>, 2012
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Client\n"
++"Project-Id-Version: Kogaion Entropy Client\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:08+0100\n"
+ "PO-Revision-Date: 2014-02-14 15:14+0000\n"
+@@ -4685,11 +4685,11 @@
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:193
+-msgid "_Sabayon Linux Website"
++msgid "_Kogaion Linux Website"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:194
+-msgid "Launch Sabayon Linux Website"
++msgid "Launch Kogaion Linux Website"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:196
+@@ -4705,7 +4705,7 @@
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:343
+-msgid "Cannot monitor Sabayon updates"
++msgid "Cannot monitor Kogaion updates"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:345
+@@ -4724,7 +4724,7 @@
+ msgstr[1] ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:370
+-msgid "Sabayon updates available"
++msgid "Kogaion updates available"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:371
+@@ -4741,7 +4741,7 @@
+ #. all fine, no updates
+ #: ../../magneto/src/magneto/core/interfaces.py:380
+ #: ../../magneto/src/magneto/core/interfaces.py:382
+-msgid "Your Sabayon is up-to-date"
++msgid "Your Kogaion is up-to-date"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:383
+@@ -4754,7 +4754,7 @@
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:395
+-msgid "Sabayon repositories status"
++msgid "Kogaion repositories status"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:396
+@@ -4780,7 +4780,7 @@
+ msgstr ""
+ 
+ #: ../kernel-switcher:28
+-msgid "Sabayon Kernel Switcher"
++msgid "Kogaion Kernel Switcher"
+ msgstr ""
+ 
+ #: ../kernel-switcher:35
+diff -Nur a/client/po/uk.po b/client/po/uk.po
+--- a/client/po/uk.po	2015-03-17 16:16:55.000000000 +0000
++++ b/client/po/uk.po	2015-08-22 15:04:11.266625536 +0100
+@@ -5,7 +5,7 @@
+ # Translators:
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Client\n"
++"Project-Id-Version: Kogaion Entropy Client\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:08+0100\n"
+ "PO-Revision-Date: 2014-02-14 15:14+0000\n"
+@@ -4690,12 +4690,12 @@
+ msgstr "Використовувати веб-інтерфейс пакунків"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:193
+-msgid "_Sabayon Linux Website"
+-msgstr "Веб-сайт _Sabayon Linux"
++msgid "_Kogaion Linux Website"
++msgstr "Веб-сайт _Kogaion Linux"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:194
+-msgid "Launch Sabayon Linux Website"
+-msgstr "Відкрити сайт Sabayon Linux"
++msgid "Launch Kogaion Linux Website"
++msgstr "Відкрити сайт Kogaion Linux"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:196
+ msgid "_Exit"
+@@ -4710,8 +4710,8 @@
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:343
+-msgid "Cannot monitor Sabayon updates"
+-msgstr "Неможливо відобразити оновлення Sabayon"
++msgid "Cannot monitor Kogaion updates"
++msgstr "Неможливо відобразити оновлення Kogaion"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:345
+ msgid "Entropy DBus service not available"
+@@ -4730,8 +4730,8 @@
+ msgstr[2] ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:370
+-msgid "Sabayon updates available"
+-msgstr "Оновлення Sabayon наявні"
++msgid "Kogaion updates available"
++msgstr "Оновлення Kogaion наявні"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:371
+ #, python-format
+@@ -4748,8 +4748,8 @@
+ #. all fine, no updates
+ #: ../../magneto/src/magneto/core/interfaces.py:380
+ #: ../../magneto/src/magneto/core/interfaces.py:382
+-msgid "Your Sabayon is up-to-date"
+-msgstr "Ваш Sabayon вже оновлений до найновішої версії"
++msgid "Your Kogaion is up-to-date"
++msgstr "Ваш Kogaion вже оновлений до найновішої версії"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:383
+ msgid "No updates available at this time, cool!"
+@@ -4761,8 +4761,8 @@
+ msgstr "Репозиторії оновлюються"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:395
+-msgid "Sabayon repositories status"
+-msgstr "Статус репозиторіїв Sabayon"
++msgid "Kogaion repositories status"
++msgstr "Статус репозиторіїв Kogaion"
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:396
+ msgid "Repositories are being updated automatically"
+@@ -4787,7 +4787,7 @@
+ msgstr "Аплет повідомлення про оновлення увімкнений"
+ 
+ #: ../kernel-switcher:28
+-msgid "Sabayon Kernel Switcher"
++msgid "Kogaion Kernel Switcher"
+ msgstr ""
+ 
+ #: ../kernel-switcher:35
+diff -Nur a/client/po/zh_TW.po b/client/po/zh_TW.po
+--- a/client/po/zh_TW.po	2015-03-17 16:16:55.000000000 +0000
++++ b/client/po/zh_TW.po	2015-08-22 15:04:11.267625536 +0100
+@@ -6,7 +6,7 @@
+ # coldnew <coldnew.tw@gmail.com>, 2012
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Client\n"
++"Project-Id-Version: Kogaion Entropy Client\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:08+0100\n"
+ "PO-Revision-Date: 2014-02-14 15:14+0000\n"
+@@ -4677,11 +4677,11 @@
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:193
+-msgid "_Sabayon Linux Website"
++msgid "_Kogaion Linux Website"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:194
+-msgid "Launch Sabayon Linux Website"
++msgid "Launch Kogaion Linux Website"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:196
+@@ -4697,7 +4697,7 @@
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:343
+-msgid "Cannot monitor Sabayon updates"
++msgid "Cannot monitor Kogaion updates"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:345
+@@ -4715,7 +4715,7 @@
+ msgstr[0] ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:370
+-msgid "Sabayon updates available"
++msgid "Kogaion updates available"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:371
+@@ -4731,7 +4731,7 @@
+ #. all fine, no updates
+ #: ../../magneto/src/magneto/core/interfaces.py:380
+ #: ../../magneto/src/magneto/core/interfaces.py:382
+-msgid "Your Sabayon is up-to-date"
++msgid "Your Kogaion is up-to-date"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:383
+@@ -4744,7 +4744,7 @@
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:395
+-msgid "Sabayon repositories status"
++msgid "Kogaion repositories status"
+ msgstr ""
+ 
+ #: ../../magneto/src/magneto/core/interfaces.py:396
+@@ -4770,7 +4770,7 @@
+ msgstr ""
+ 
+ #: ../kernel-switcher:28
+-msgid "Sabayon Kernel Switcher"
++msgid "Kogaion Kernel Switcher"
+ msgstr ""
+ 
+ #: ../kernel-switcher:35
+diff -Nur a/lib/entropy/const.py b/lib/entropy/const.py
+--- a/lib/entropy/const.py	2015-03-17 16:16:55.000000000 +0000
++++ b/lib/entropy/const.py	2015-08-22 15:04:11.268625536 +0100
+@@ -578,7 +578,7 @@
+         # default Entropy release version
+         'entropyversion': "1",
+         # default system name (overidden by entropy.conf settings)
+-        'systemname': "Sabayon Linux",
++        'systemname': "Kogaion Linux",
+         # Product identificator (standard, professional...)
+         'product': "standard",
+         'systemroot': original_rootdir, # default system root
+diff -Nur a/magneto/src/magneto/core/interfaces.py b/magneto/src/magneto/core/interfaces.py
+--- a/magneto/src/magneto/core/interfaces.py	2015-03-17 16:16:55.000000000 +0000
++++ b/magneto/src/magneto/core/interfaces.py	2015-08-22 15:04:11.268625536 +0100
+@@ -190,8 +190,8 @@
+                 _("Launch Package Manager"), self.launch_package_manager),
+             ("web_panel", _("_Packages Website"),
+                 _("Use Packages web interface"), self.load_packages_url),
+-            ("web_site", _("_Sabayon Linux Website"),
+-                _("Launch Sabayon Linux Website"), self.load_website),
++            ("web_site", _("_Kogaion Linux Website"),
++                _("Launch Kogaion Linux Website"), self.load_website),
+             None,
+             ("exit", _("_Exit"), _("Exit"), self.exit_applet),
+         )
+@@ -340,7 +340,7 @@
+     def show_service_not_available(self):
+         # inform user about missing Entropy service
+         self.show_alert(
+-            _("Cannot monitor Sabayon updates"),
++            _("Cannot monitor Kogaion updates"),
+             "%s: %s: %s" % (
+                 _("Entropy DBus service not available"),
+                 _("unable to communicate with the updates service"),
+@@ -367,7 +367,7 @@
+             )
+             self.set_state("CRITICAL")
+             self.show_alert(
+-                _("Sabayon updates available"),
++                _("Kogaion updates available"),
+                 ngettext("There is <b>%s</b> update available",
+                     "There are <b>%s</b> updates available",
+                     upd_len) % (upd_len,),
+@@ -377,9 +377,9 @@
+             )
+         else:
+             # all fine, no updates
+-            self.update_tooltip(_("Your Sabayon is up-to-date"))
++            self.update_tooltip(_("Your Kogaion is up-to-date"))
+             self.set_state("OKAY")
+-            self.show_alert(_("Your Sabayon is up-to-date"),
++            self.show_alert(_("Your Kogaion is up-to-date"),
+                 _("No updates available at this time, cool!"),
+                 force = self.manual_check_triggered
+             )
+@@ -392,7 +392,7 @@
+ 
+         # all fine, no updates
+         self.update_tooltip(_("Repositories are being updated"))
+-        self.show_alert(_("Sabayon repositories status"),
++        self.show_alert(_("Kogaion repositories status"),
+             _("Repositories are being updated automatically")
+         )
+ 
+diff -Nur a/rigo/po/bg_BG.po b/rigo/po/bg_BG.po
+--- a/rigo/po/bg_BG.po	2015-03-17 16:16:55.000000000 +0000
++++ b/rigo/po/bg_BG.po	2015-08-22 15:04:11.268625536 +0100
+@@ -7,7 +7,7 @@
+ # tblu <tblu@autistici.org>, 2012
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Rigo App Manager\n"
++"Project-Id-Version: Kogaion Entropy Rigo App Manager\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:14+0100\n"
+ "PO-Revision-Date: 2013-12-11 14:18+0000\n"
+diff -Nur a/rigo/po/ca.po b/rigo/po/ca.po
+--- a/rigo/po/ca.po	2015-03-17 16:16:55.000000000 +0000
++++ b/rigo/po/ca.po	2015-08-22 15:04:11.269625536 +0100
+@@ -8,7 +8,7 @@
+ # rogerc, 2008, 2009, 2010, 2011
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Rigo App Manager\n"
++"Project-Id-Version: Kogaion Entropy Rigo App Manager\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:14+0100\n"
+ "PO-Revision-Date: 2013-12-11 14:18+0000\n"
+diff -Nur a/rigo/po/cs.po b/rigo/po/cs.po
+--- a/rigo/po/cs.po	2015-03-17 16:16:55.000000000 +0000
++++ b/rigo/po/cs.po	2015-08-22 15:04:11.269625536 +0100
+@@ -6,7 +6,7 @@
+ # Tomáš Chvátal <tomas.chvatal@gmail.com>, 2012-2013
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Rigo App Manager\n"
++"Project-Id-Version: Kogaion Entropy Rigo App Manager\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:14+0100\n"
+ "PO-Revision-Date: 2013-12-11 14:18+0000\n"
+diff -Nur a/rigo/po/da.po b/rigo/po/da.po
+--- a/rigo/po/da.po	2015-03-17 16:16:55.000000000 +0000
++++ b/rigo/po/da.po	2015-08-22 15:04:11.269625536 +0100
+@@ -10,7 +10,7 @@
+ # Tim Lauridsen <tla@rasmil.dk>, 2005
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Rigo App Manager\n"
++"Project-Id-Version: Kogaion Entropy Rigo App Manager\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:14+0100\n"
+ "PO-Revision-Date: 2013-12-11 14:18+0000\n"
+diff -Nur a/rigo/po/de.po b/rigo/po/de.po
+--- a/rigo/po/de.po	2015-03-17 16:16:55.000000000 +0000
++++ b/rigo/po/de.po	2015-08-22 15:04:11.270625536 +0100
+@@ -8,7 +8,7 @@
+ # Mario Fetka <mario.fetka@gmail.com>, 2012
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Rigo App Manager\n"
++"Project-Id-Version: Kogaion Entropy Rigo App Manager\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:14+0100\n"
+ "PO-Revision-Date: 2013-12-11 14:18+0000\n"
+diff -Nur a/rigo/po/el_GR.po b/rigo/po/el_GR.po
+--- a/rigo/po/el_GR.po	2015-03-17 16:16:55.000000000 +0000
++++ b/rigo/po/el_GR.po	2015-08-22 15:04:11.270625536 +0100
+@@ -5,7 +5,7 @@
+ # Translators:
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Rigo App Manager\n"
++"Project-Id-Version: Kogaion Entropy Rigo App Manager\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:14+0100\n"
+ "PO-Revision-Date: 2013-12-11 14:18+0000\n"
+diff -Nur a/rigo/po/es.po b/rigo/po/es.po
+--- a/rigo/po/es.po	2015-03-17 16:16:55.000000000 +0000
++++ b/rigo/po/es.po	2015-08-22 15:04:11.271625536 +0100
+@@ -9,7 +9,7 @@
+ # tutan_kbron <the.darkspider@gmail.com>, 2014
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Rigo App Manager\n"
++"Project-Id-Version: Kogaion Entropy Rigo App Manager\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:14+0100\n"
+ "PO-Revision-Date: 2014-01-04 17:15+0000\n"
+diff -Nur a/rigo/po/es_AR.po b/rigo/po/es_AR.po
+--- a/rigo/po/es_AR.po	2015-03-17 16:16:55.000000000 +0000
++++ b/rigo/po/es_AR.po	2015-08-22 15:04:11.270625536 +0100
+@@ -6,7 +6,7 @@
+ # neo2drummer <the_neo_2@hotmail.com>, 2012
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Rigo App Manager\n"
++"Project-Id-Version: Kogaion Entropy Rigo App Manager\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:14+0100\n"
+ "PO-Revision-Date: 2013-12-11 14:18+0000\n"
+diff -Nur a/rigo/po/es_CL.po b/rigo/po/es_CL.po
+--- a/rigo/po/es_CL.po	2015-03-17 16:16:55.000000000 +0000
++++ b/rigo/po/es_CL.po	2015-08-22 15:04:11.271625536 +0100
+@@ -6,7 +6,7 @@
+ # Danilo Riffo <danriffo@gmail.com>, 2012-2013
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Rigo App Manager\n"
++"Project-Id-Version: Kogaion Entropy Rigo App Manager\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:14+0100\n"
+ "PO-Revision-Date: 2013-12-11 14:18+0000\n"
+diff -Nur a/rigo/po/fi.po b/rigo/po/fi.po
+--- a/rigo/po/fi.po	2015-03-17 16:16:55.000000000 +0000
++++ b/rigo/po/fi.po	2015-08-22 15:04:11.271625536 +0100
+@@ -5,7 +5,7 @@
+ # Translators:
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Rigo App Manager\n"
++"Project-Id-Version: Kogaion Entropy Rigo App Manager\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:14+0100\n"
+ "PO-Revision-Date: 2013-12-11 14:18+0000\n"
+diff -Nur a/rigo/po/fr.po b/rigo/po/fr.po
+--- a/rigo/po/fr.po	2015-03-17 16:16:55.000000000 +0000
++++ b/rigo/po/fr.po	2015-08-22 15:04:11.272625536 +0100
+@@ -7,7 +7,7 @@
+ # PatTheGeek <patrick.liniger@windowslive.com>, 2012
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Rigo App Manager\n"
++"Project-Id-Version: Kogaion Entropy Rigo App Manager\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:14+0100\n"
+ "PO-Revision-Date: 2013-12-11 14:18+0000\n"
+diff -Nur a/rigo/po/fr_CA.po b/rigo/po/fr_CA.po
+--- a/rigo/po/fr_CA.po	2015-03-17 16:16:55.000000000 +0000
++++ b/rigo/po/fr_CA.po	2015-08-22 15:04:11.272625536 +0100
+@@ -5,7 +5,7 @@
+ # Translators:
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Rigo App Manager\n"
++"Project-Id-Version: Kogaion Entropy Rigo App Manager\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:14+0100\n"
+ "PO-Revision-Date: 2013-12-11 14:18+0000\n"
+diff -Nur a/rigo/po/hr.po b/rigo/po/hr.po
+--- a/rigo/po/hr.po	2015-03-17 16:16:55.000000000 +0000
++++ b/rigo/po/hr.po	2015-08-22 15:04:11.272625536 +0100
+@@ -6,7 +6,7 @@
+ # Ivica  Kolić <ikoli@yahoo.com>, 2012-2014
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Rigo App Manager\n"
++"Project-Id-Version: Kogaion Entropy Rigo App Manager\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:14+0100\n"
+ "PO-Revision-Date: 2014-04-02 17:11+0000\n"
+diff -Nur a/rigo/po/hu.po b/rigo/po/hu.po
+--- a/rigo/po/hu.po	2015-03-17 16:16:55.000000000 +0000
++++ b/rigo/po/hu.po	2015-08-22 15:04:11.273625536 +0100
+@@ -6,7 +6,7 @@
+ # andrewtranslates <andrewtranslates@aol.com>, 2014
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Rigo App Manager\n"
++"Project-Id-Version: Kogaion Entropy Rigo App Manager\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:14+0100\n"
+ "PO-Revision-Date: 2014-01-22 19:25+0000\n"
+diff -Nur a/rigo/po/it.po b/rigo/po/it.po
+--- a/rigo/po/it.po	2015-03-17 16:16:55.000000000 +0000
++++ b/rigo/po/it.po	2015-08-22 15:04:11.273625536 +0100
+@@ -8,7 +8,7 @@
+ # unknerror <unknerror@alternativefuse.com>, 2012
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Rigo App Manager\n"
++"Project-Id-Version: Kogaion Entropy Rigo App Manager\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:14+0100\n"
+ "PO-Revision-Date: 2013-12-11 15:22+0000\n"
+diff -Nur a/rigo/po/lt.po b/rigo/po/lt.po
+--- a/rigo/po/lt.po	2015-03-17 16:16:55.000000000 +0000
++++ b/rigo/po/lt.po	2015-08-22 15:04:11.273625536 +0100
+@@ -6,7 +6,7 @@
+ # Kestutis Magnums <>, 2012
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Rigo App Manager\n"
++"Project-Id-Version: Kogaion Entropy Rigo App Manager\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:14+0100\n"
+ "PO-Revision-Date: 2013-12-11 14:18+0000\n"
+diff -Nur a/rigo/po/nl.po b/rigo/po/nl.po
+--- a/rigo/po/nl.po	2015-03-17 16:16:55.000000000 +0000
++++ b/rigo/po/nl.po	2015-08-22 15:04:11.274625536 +0100
+@@ -8,7 +8,7 @@
+ # Parhan <dyingmuppet@sabayon.org>, 2008
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Rigo App Manager\n"
++"Project-Id-Version: Kogaion Entropy Rigo App Manager\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:14+0100\n"
+ "PO-Revision-Date: 2013-12-11 14:18+0000\n"
+diff -Nur a/rigo/po/pl.po b/rigo/po/pl.po
+--- a/rigo/po/pl.po	2015-03-17 16:16:55.000000000 +0000
++++ b/rigo/po/pl.po	2015-08-22 15:04:11.274625536 +0100
+@@ -7,7 +7,7 @@
+ # RyD0pR3c <prendter@gmail.com>, 2013-2014
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Rigo App Manager\n"
++"Project-Id-Version: Kogaion Entropy Rigo App Manager\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:14+0100\n"
+ "PO-Revision-Date: 2014-01-11 16:05+0000\n"
+diff -Nur a/rigo/po/pt.po b/rigo/po/pt.po
+--- a/rigo/po/pt.po	2015-03-17 16:16:55.000000000 +0000
++++ b/rigo/po/pt.po	2015-08-22 15:04:11.275625536 +0100
+@@ -7,7 +7,7 @@
+ # Alberto Federman Neto <mrtabac@gmail.com>, 2012
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Rigo App Manager\n"
++"Project-Id-Version: Kogaion Entropy Rigo App Manager\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:14+0100\n"
+ "PO-Revision-Date: 2013-12-11 14:18+0000\n"
+diff -Nur a/rigo/po/pt_BR.po b/rigo/po/pt_BR.po
+--- a/rigo/po/pt_BR.po	2015-03-17 16:16:55.000000000 +0000
++++ b/rigo/po/pt_BR.po	2015-08-22 15:04:11.274625536 +0100
+@@ -10,7 +10,7 @@
+ # Pablo Diehl <pablodiehl@ymail.com>, 2012
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Rigo App Manager\n"
++"Project-Id-Version: Kogaion Entropy Rigo App Manager\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:14+0100\n"
+ "PO-Revision-Date: 2014-02-08 16:05+0000\n"
+diff -Nur a/rigo/po/ro.po b/rigo/po/ro.po
+--- a/rigo/po/ro.po	2015-03-17 16:16:55.000000000 +0000
++++ b/rigo/po/ro.po	2015-08-22 15:04:11.275625536 +0100
+@@ -10,7 +10,7 @@
+ # unknerror <unknerror@alternativefuse.com>, 2012
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Rigo App Manager\n"
++"Project-Id-Version: Kogaion Entropy Rigo App Manager\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:14+0100\n"
+ "PO-Revision-Date: 2013-12-12 20:55+0000\n"
+diff -Nur a/rigo/po/ru.po b/rigo/po/ru.po
+--- a/rigo/po/ru.po	2015-03-17 16:16:55.000000000 +0000
++++ b/rigo/po/ru.po	2015-08-22 15:04:11.275625536 +0100
+@@ -7,7 +7,7 @@
+ # greywalk <workisgreat@yandex.com>, 2012
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Rigo App Manager\n"
++"Project-Id-Version: Kogaion Entropy Rigo App Manager\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:14+0100\n"
+ "PO-Revision-Date: 2013-12-11 14:18+0000\n"
+diff -Nur a/rigo/po/sk.po b/rigo/po/sk.po
+--- a/rigo/po/sk.po	2015-03-17 16:16:55.000000000 +0000
++++ b/rigo/po/sk.po	2015-08-22 15:04:11.276625536 +0100
+@@ -6,7 +6,7 @@
+ # Dušan Kazik <prescott66@gmail.com>, 2014
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Rigo App Manager\n"
++"Project-Id-Version: Kogaion Entropy Rigo App Manager\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:14+0100\n"
+ "PO-Revision-Date: 2014-01-02 21:21+0000\n"
+diff -Nur a/rigo/po/sv.po b/rigo/po/sv.po
+--- a/rigo/po/sv.po	2015-03-17 16:16:55.000000000 +0000
++++ b/rigo/po/sv.po	2015-08-22 15:04:11.276625536 +0100
+@@ -8,7 +8,7 @@
+ # Peruvian_Torch <peruvian.torch550@gmail.com>, 2012
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Rigo App Manager\n"
++"Project-Id-Version: Kogaion Entropy Rigo App Manager\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:14+0100\n"
+ "PO-Revision-Date: 2014-03-21 14:03+0000\n"
+@@ -831,7 +831,7 @@
+ "Several <b>Applications</b>, no longer maintained by this distribution, have"
+ " been found on your <b>System</b>. Some of them might require <b>manual "
+ "review</b> before being uninstalled. Click on the Apps to expand."
+-msgstr " <b>Program</b>som inte längre underhålls av Sabayon har hittats på ditt <b>System</b>. Du bör <b>granska</b> dessa innan om du tänker avinstallera dom. Klicka på programmet för att öppna."
++msgstr " <b>Program</b>som inte längre underhålls av Kogaion har hittats på ditt <b>System</b>. Du bör <b>granska</b> dessa innan om du tänker avinstallera dom. Klicka på programmet för att öppna."
+ 
+ #: ../rigo/ui/gtk3/widgets/notifications.py:677
+ msgid "Manual review"
+diff -Nur a/rigo/po/tr.po b/rigo/po/tr.po
+--- a/rigo/po/tr.po	2015-03-17 16:16:55.000000000 +0000
++++ b/rigo/po/tr.po	2015-08-22 15:04:11.276625536 +0100
+@@ -10,7 +10,7 @@
+ # Dombra <sozturk42@yandex.com>, 2013
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Rigo App Manager\n"
++"Project-Id-Version: Kogaion Entropy Rigo App Manager\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:14+0100\n"
+ "PO-Revision-Date: 2013-12-11 14:18+0000\n"
+diff -Nur a/rigo/po/uk.po b/rigo/po/uk.po
+--- a/rigo/po/uk.po	2015-03-17 16:16:55.000000000 +0000
++++ b/rigo/po/uk.po	2015-08-22 15:04:11.277625535 +0100
+@@ -8,7 +8,7 @@
+ # Andriy <andriy.tsykholyas@gmail.com>, 2012
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Rigo App Manager\n"
++"Project-Id-Version: Kogaion Entropy Rigo App Manager\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:14+0100\n"
+ "PO-Revision-Date: 2013-12-11 14:18+0000\n"
+diff -Nur a/rigo/po/vi.po b/rigo/po/vi.po
+--- a/rigo/po/vi.po	2015-03-17 16:16:55.000000000 +0000
++++ b/rigo/po/vi.po	2015-08-22 15:04:11.277625535 +0100
+@@ -5,7 +5,7 @@
+ # Translators:
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Sabayon Entropy Rigo App Manager\n"
++"Project-Id-Version: Kogaion Entropy Rigo App Manager\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2014-02-14 16:14+0100\n"
+ "PO-Revision-Date: 2013-12-11 14:18+0000\n"
+diff -Nur a/rigo/rigo/version.py b/rigo/rigo/version.py
+--- a/rigo/rigo/version.py	2015-03-17 16:16:55.000000000 +0000
++++ b/rigo/rigo/version.py	2015-08-22 15:04:11.277625535 +0100
+@@ -1,4 +1,4 @@
+ VERSION='0.5'
+ CODENAME='zomg2'
+-DISTRO='Sabayon'
++DISTRO='Kogaion'
+ RELEASE='Rolling'

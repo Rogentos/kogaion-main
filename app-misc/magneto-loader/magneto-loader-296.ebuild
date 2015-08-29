@@ -27,5 +27,6 @@ RDEPEND="${DEPEND}"
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 src_install() {
+	epatch "${FILESDIR}"/kogaion-entropy.patch
 	emake DESTDIR="${D}" LIBDIR="usr/lib" magneto-loader-install || die "make install failed"
 }
