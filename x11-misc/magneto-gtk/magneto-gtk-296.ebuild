@@ -28,7 +28,6 @@ RDEPEND="~app-misc/magneto-loader-${PV}[${PYTHON_USEDEP}]
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 src_install() {
-	epatch "${FILESDIR}"/kogaion-entropy.patch
 	emake DESTDIR="${D}" LIBDIR="usr/lib" magneto-gtk-install || die "make install failed"
 
 	python_optimize "${D}/usr/lib/entropy/magneto/magneto/gtk"
