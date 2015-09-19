@@ -32,7 +32,7 @@ DEPEND="${RDEPEND}
 
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
-S="${WORKDIR}/${PN}-${PV}"
+S="${S}/lib"
 REPO_CONFPATH="${ROOT}/etc/entropy/repositories.conf"
 REPO_D_CONFPATH="${ROOT}/etc/entropy/repositories.conf.d"
 ENTROPY_CACHEDIR="${ROOT}/var/lib/entropy/caches"
@@ -50,7 +50,6 @@ pkg_setup() {
 }
 
 src_install() {
-	cd "${S}/lib"
 	emake DESTDIR="${D}" LIBDIR="usr/lib" install || die "make install failed"
 	python_optimize "${D}/usr/lib/entropy/lib/entropy"
 }
