@@ -48,9 +48,6 @@ pkg_setup() {
 	enewgroup entropy-nopriv || die "failed to create entropy-nopriv group"
 	enewuser entropy-nopriv -1 -1 -1 entropy-nopriv || die "failed to create entropy-nopriv user"
 }
-src_prepare() {
-	epatch "${FILESDIR}/kogaion-entropy.patch"
-}
 
 src_install() {
 	cd "${S}/lib"
