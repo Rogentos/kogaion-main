@@ -2,7 +2,7 @@
 <!DOCTYPE repositories SYSTEM "repositories.dtd">
 <repositories xmlns="" version="1.0">
   <repo quality="experimental" status="unofficial">
-    <name>kogaion-main</name>
+    <name>kogaion</name>
     <description>Kogaion Desktop oriented overlay of ebuilds</description>
     <homepage>https://gitlab.com/kogaion/kogaion-main</homepage>
     <owner type="project">
