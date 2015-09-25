@@ -19,7 +19,7 @@ SRC_URI="http://www.freedesktop.org/software/PackageKit/releases/${MY_P}.tar.xz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~mips ~ppc ~ppc64 ~x86"
+KEYWORDS="~alpha amd64 ~arm ~mips ~ppc ~ppc64 x86"
 IUSE="bash-completion connman cron command-not-found doc +introspection networkmanager nsplugin entropy static-libs systemd"
 
 CDEPEND="bash-completion? ( >=app-shells/bash-completion-2.0 )

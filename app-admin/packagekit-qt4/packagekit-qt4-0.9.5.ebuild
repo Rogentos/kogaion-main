@@ -15,7 +15,7 @@ SRC_URI="http://www.packagekit.org/releases/${MY_P}.tar.xz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~x86"
+KEYWORDS="amd64 ~arm x86"
 IUSE=""
 
 RDEPEND=">=dev-qt/qtcore-4.4.0:4
