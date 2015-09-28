@@ -50,7 +50,7 @@ DEPEND="${CDEPEND}
 
 RDEPEND="${CDEPEND}
 	entropy? ( >=sys-apps/entropy-234[${PYTHON_USEDEP}] )
-	>=app-portage/layman-1.2.3[${PYTHON_USEDEP}]
+	>=app-portage/layman-2.3.0[${PYTHON_USEDEP}]
 	>=sys-apps/portage-2.2[${PYTHON_USEDEP}]"
 
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"

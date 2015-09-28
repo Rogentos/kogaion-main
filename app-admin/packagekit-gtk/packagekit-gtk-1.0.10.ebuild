@@ -39,7 +39,7 @@ src_configure() {
 		--disable-local \
 		--disable-man-pages \
 		--disable-networkmanager \
-		--enable-entropy \
+		--disable-entropy \
 		--enable-portage \
 		--disable-systemd \
 		--enable-dummy \
