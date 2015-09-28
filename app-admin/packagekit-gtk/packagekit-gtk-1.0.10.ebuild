@@ -33,15 +33,15 @@ src_configure() {
 		--disable-browser-plugin \
 		--disable-command-not-found \
 		--disable-cron \
-		--disable-debuginfo-install \
 		--disable-dependency-tracking \
 		--disable-gstreamer-plugin \
 		--disable-gtk-doc \
 		--disable-local \
 		--disable-man-pages \
 		--disable-networkmanager \
+		--enable-entropy \
+		--enable-portage \
 		--disable-systemd \
-		--disable-systemd-updates \
 		--enable-dummy \
 		--enable-gtk-module \
 		--enable-introspection=yes \
