@@ -20,7 +20,7 @@ SRC_URI="http://www.freedesktop.org/software/PackageKit/releases/${MY_P}.tar.xz"
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~alpha amd64 ~arm ~mips ~ppc ~ppc64 x86"
-IUSE="bash-completion connman cron command-not-found doc +introspection networkmanager nsplugin entropy static-libs systemd"
+IUSE="bash-completion connman cron command-not-found doc +introspection networkmanager nsplugin entropy static-libs systemd vala"
 
 CDEPEND="bash-completion? ( >=app-shells/bash-completion-2.0 )
 	connman? ( net-misc/connman )
@@ -44,6 +44,7 @@ DEPEND="${CDEPEND}
 	systemd? ( >=sys-apps/systemd-204 )
 	dev-libs/libxslt[${PYTHON_USEDEP}]
 	>=dev-util/intltool-0.35.0
+	dev-lang/vala
 	virtual/pkgconfig
 	sys-devel/gettext"
 
@@ -63,12 +64,6 @@ done
 S="${WORKDIR}/${MY_P}"
 
 src_prepare() {
-	epatch "${FILESDIR}"/${PN}-0.8.x-npapi-sdk.patch #383141
-
-	# Upstreamed patches
-	epatch "${FILESDIR}/0001-entropy-PackageKitEntropyClient.output-API-update.patch"
-	epatch "${FILESDIR}/${P}-qtdbus-annotate.patch"
-
 	epatch_user
 
 	# npapi-sdk patch and epatch_user
@@ -85,13 +80,12 @@ src_configure() {
 		--enable-option-checking \
 		--enable-libtool-lock \
 		--disable-local \
-		--with-default-backend=$(use entropy && echo -n "entropy" || echo -n "portage") \
 		$(use_enable doc gtk-doc) \
 		$(use_enable command-not-found) \
-		--disable-debuginfo-install \
 		--disable-gstreamer-plugin \
 		--enable-man-pages \
 		--enable-portage \
+		--enable-vala=$(use vala && echo -n "yes" || echo -n "no") \
 		$(use_enable entropy) \
 		$(use_enable cron) \
 		--disable-gtk-module \
@@ -100,15 +94,14 @@ src_configure() {
 		$(use_enable nsplugin browser-plugin) \
 		$(use_enable static-libs static) \
 		$(use_enable systemd) \
-		$(use_enable systemd systemd-updates) \
 		$(use_enable connman)
 }
 
 src_install() {
 	emake DESTDIR="${D}" install || die "emake install failed"
 
-	dodoc AUTHORS MAINTAINERS NEWS README TODO || die "dodoc failed"
-	dodoc ChangeLog || die "dodoc failed"
+	#dodoc AUTHORS MAINTAINERS NEWS README TODO || die "dodoc failed"
+	#dodoc ChangeLog || die "dodoc failed"
 
 	if use nsplugin; then
 		dodir "/usr/$(get_libdir)/${PLUGINS_DIR}"
