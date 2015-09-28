@@ -20,12 +20,12 @@ IUSE="systemd test udev"
 RDEPEND="
 	>=dev-libs/glib-2.32:2
 	x11-libs/gdk-pixbuf:2
-	>=x11-libs/gtk-3.14.13:3
+	>=x11-libs/gtk+-3.14.13:3
 	>=x11-libs/libnotify-0.7.0:=
 	x11-libs/pango
 	>=dev-libs/dbus-glib-0.73
 
-	>=app-admin/packagekit-base-0.8
+	>=app-admin/packagekit-base-1.0.10
 	>=app-admin/packagekit-gtk-0.7.2
 	>=media-libs/libcanberra-0.10[gtk3]
 	>=sys-apps/dbus-1.1.2
